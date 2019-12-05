@@ -8,7 +8,7 @@
 
 本文所有涉及的代码：
 
-- [https://github.com/jsong/SSM](https://github.com/jsong/SSM)
+- [https://github.com/changsong/jsong/SSM](https://github.com/changsong/jsong/SSM)
 - [https://github.com/jsong/distributed-redis-tool](https://github.com/jsong/distributed-redis-tool)
 
 最终架构图：

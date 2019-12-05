@@ -1,22 +1,9 @@
 <div align="center">  
 
-<img src="https://ws1.sinaimg.cn/large/0069RVTdly1fubocn5pxaj30go082dg1.jpg" width=""/> 
+<img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/jsong_logo.png" width=""/> 
 <br/>
-
-[![Build Status](https://travis-ci.org/jsong/JCSprout.svg?branch=master)](https://travis-ci.org/jsong/JCSprout)
-[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-787381170-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5HPYvQk)
-
-[qq0groupsvg]: https://img.shields.io/badge/QQ%E7%BE%A4-787381170-yellowgreen.svg
-[qq0group]: https://jq.qq.com/?_wv=1027&k=5HPYvQk
 
 </div><br>
-
-
-> `Java Song`： Java Song。
-
-**访问这里获取更好的阅读体验**：[https://jsong.top/JCSprout/](https://jsong.top/JCSprout/)
-
-<br/>
 
 
 | 📊 |⚔️ | 🖥 | 🚏 | 🏖  | 🌁| 📮 | 🔍 | 🚀 | 🌈 |💡
@@ -116,8 +103,4 @@
 ### 联系作者
 > qianjinfu#gmail.com
 
-### 部分内容来源于
-- [JCSprout](https://github.com/crossoverJie/JCSprout)
-- 来源于 JCSprout 文章有注明
-
-<img src="https://ws2.sinaimg.cn/large/006tKfTcly1fsa01u7ro1j30gs0howfq.jpg" width="300"/> 
+<img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/qrcode_for_123_code.jpg" /> 
