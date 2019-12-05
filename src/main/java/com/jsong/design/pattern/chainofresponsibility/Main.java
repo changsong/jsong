@@ -7,6 +7,11 @@ import com.jsong.design.pattern.chainofresponsibility.impl.TypoProcess;
 /**
  * Function:
  *
+ * 参照：
+ *
+ * http://commons.apache.org/proper/commons-chain/
+ * 支持配置文件配置
+ *
  * @author jsong
  *         Date: 2018/10/21 23:07
  * @since JDK 1.8

@@ -182,7 +182,7 @@
 
 实例代码：
 
-[https://github.com/jsong/JCSprout/blob/master/src/main/java/com/jsong/thread/ThreadExceptionTest.java](https://github.com/jsong/JCSprout/blob/master/src/main/java/com/jsong/thread/ThreadExceptionTest.java)
+[https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/thread/ThreadExceptionTest.java](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/thread/ThreadExceptionTest.java)
 
 
 **你的点赞与分享是对我最大的支持**

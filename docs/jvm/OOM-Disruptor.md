@@ -120,6 +120,6 @@
 
 相关演示代码查看：
 
-[https://github.com/jsong/JCSprout/tree/master/src/main/java/com/jsong/disruptor](https://github.com/jsong/JCSprout/tree/master/src/main/java/com/jsong/disruptor)
+[https://github.com/changsong/jsong/tree/master/src/main/java/com/jsong/disruptor](https://github.com/changsong/jsong/tree/master/src/main/java/com/jsong/disruptor)
 
 **你的点赞与转发是最大的支持。**

@@ -197,7 +197,7 @@ c1 线程只取 0 分区；c2 只取 1 分区；c3 只取 2 分区的数据。
 
 文中提到的部分源码可以在这里查阅：
 
-[https://github.com/jsong/JCSprout](https://github.com/jsong/JCSprout)
+[https://github.com/changsong/jsong](https://github.com/changsong/jsong)
 
 
 

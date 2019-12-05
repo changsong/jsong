@@ -1,6 +1,6 @@
 package com.jsong.algorithm.amzon;
 
-import com.jsong.algorithm.amazon.Amazon;
+import com.jsong.interview.amazon.Amazon;
 import org.assertj.core.util.Lists;
 import org.junit.Test;
 

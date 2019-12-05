@@ -1,4 +1,4 @@
-package com.jsong.algorithm.amazon;
+package com.jsong.interview.amazon;
 
 import java.util.List;
 import java.util.Stack;

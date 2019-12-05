@@ -19,11 +19,11 @@ public class Main {
 
         Caller caller = new Caller() ;
         caller.setNotifier(notifier) ;
-        caller.setQuestion("你在哪儿！");
+        caller.setQuestion("where are you ?");
         caller.setCallBackListener(new CallBackListener() {
             @Override
             public void callBackNotify(String msg) {
-                LOGGER.info("回复=【{}】" ,msg);
+                LOGGER.info("replay ={}" ,msg);
             }
         });
 

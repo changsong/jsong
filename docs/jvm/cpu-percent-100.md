@@ -145,7 +145,7 @@
 
 本文的演示代码已上传至 GitHub：
 
-[https://github.com/jsong/JCSprout](https://github.com/jsong/JCSprout/tree/master/src/main/java/com/jsong/disruptor)
+[https://github.com/changsong/jsong](https://github.com/changsong/jsong/tree/master/src/main/java/com/jsong/disruptor)
 
 **你的点赞与分享是对我最大的支持**
 

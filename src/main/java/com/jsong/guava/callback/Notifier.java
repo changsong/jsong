@@ -19,11 +19,11 @@ public class Notifier {
     public void execute(Caller caller, String msg) throws InterruptedException {
         LOGGER.info("收到消息=【{}】", msg);
 
-        LOGGER.info("等待响应中。。。。。");
+        LOGGER.info("等待响应中...");
         TimeUnit.SECONDS.sleep(2);
 
 
-        caller.getCallBackListener().callBackNotify("我在北京！");
+        caller.getCallBackListener().callBackNotify("我在我不知道的地方！");
 
     }
 

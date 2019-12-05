@@ -338,7 +338,7 @@ long 类型的赋值是否是原子的？
 
 厂库地址：
 
-[https://github.com/jsong/JCSprout](https://github.com/jsong/JCSprout)
+[https://github.com/changsong/jsong](https://github.com/changsong/jsong)
 
 最后总结下这将近四个月的面试心得：
 

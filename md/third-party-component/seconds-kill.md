@@ -2,7 +2,7 @@
 
 ## 前言
 
-之前在 [JCSprout](https://github.com/jsong/JCSprout/blob/master/MD/Spike.md) 中提到过秒杀架构的设计，这次基于其中的理论简单实现了一下。
+之前在 [JCSprout](https://github.com/changsong/jsong/blob/master/md/Spike.md) 中提到过秒杀架构的设计，这次基于其中的理论简单实现了一下。
 
 > 本次采用循序渐进的方式逐步提高性能达到并发秒杀的效果，文章较长请准备好瓜子板凳(liushuizhang😂)。
 
@@ -691,4 +691,4 @@ Service 端就没什么更新了，依然是采用的乐观锁更新数据库。
 ### 号外
 最近在总结一些 Java 相关的知识点，感兴趣的朋友可以一起维护。
 
-> 地址: [https://github.com/jsong/JCSprout](https://github.com/jsong/JCSprout)
+> 地址: [https://github.com/changsong/jsong](https://github.com/changsong/jsong)

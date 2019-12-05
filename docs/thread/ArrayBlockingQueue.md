@@ -277,7 +277,7 @@
 
 本文涉及到的所有源码：
 
-https://github.com/jsong/JCSprout/blob/master/src/main/java/com/jsong/concurrent/ArrayQueue.java
+https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/concurrent/ArrayQueue.java
 
 
 **你的点赞与分享是对我最大的支持**

@@ -5,5 +5,5 @@
 
 > `Java Core Sprout`：处于萌芽阶段的 Java 核心知识库。
 
-[GitHub](https://github.com/jsong/JCSprout)
+[GitHub](https://github.com/changsong/jsong)
 [Get Started](#introduction)
