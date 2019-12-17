@@ -2,6 +2,7 @@ package com.jsong.disruptor;
 
 /**
  * Function:
+ *  事件
  *
  * @author jsong
  *         Date: 2018/8/29 01:42

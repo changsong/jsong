@@ -3,7 +3,7 @@ package com.jsong.disruptor;
 import com.lmax.disruptor.EventFactory;
 
 /**
- * Function:
+ *  事件工厂
  *
  * @author jsong
  *         Date: 2018/8/29 01:42

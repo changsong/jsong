@@ -10,14 +10,18 @@ import java.util.concurrent.*;
 
 /**
  * Function:
+ *  在多线程环境下为了保证线程安全，往往需要加锁，例如读写锁可以保证读写互斥，读读不互斥。
+ *  有没有一种数据结构能够实现无锁的线程安全呢？答案就是使用RingBuffer循环队列。在Disruptor项目中就运用到了RingBuffer
  *
+ * @see 剖析Disruptor:为什么会这么快? http://ifeve.com/dissecting-disruptor-whats-so-special/
  * @author jsong
  *         Date: 2018/8/29 01:45
  * @since JDK 1.8
  */
 public class LongEventMain {
-    public static void main(String[] args) throws Exception {
 
+
+    public static void main(String[] args) throws Exception {
         TimeUnit.SECONDS.sleep(10);
         // Executor that will be used to construct new threads for consumers
         BlockingQueue<Runnable> queue = new LinkedBlockingQueue<>();
@@ -34,10 +38,8 @@ public class LongEventMain {
         ThreadPoolExecutor productExecutor = new ThreadPoolExecutor(2, 2, 1, TimeUnit.MILLISECONDS, queue,product);
 
 
-
         // The factory for the event
         LongEventFactory factory = new LongEventFactory();
-
         // Specify the size of the ring buffer, must be power of 2.
         int bufferSize = 8;
 
@@ -63,23 +65,19 @@ public class LongEventMain {
                 //Thread.sleep(1000);
                 productExecutor.execute(new Work(producer,l));
             }
-
         }
-
-
 
         productExecutor.shutdown();
         while (!productExecutor.awaitTermination(1, TimeUnit.SECONDS)) {
             System.out.println("线程还在执行。。。");
         }
         System.out.println("main over");
-
     }
 
-
-
+    /**
+     * 工作线程
+     */
     private static class Work implements Runnable{
-
         private LongEventProducer producer ;
         private long bb ;
 
@@ -87,7 +85,6 @@ public class LongEventMain {
             this.producer = producer;
             this.bb = bb ;
         }
-
         @Override
         public void run() {
             producer.onData(bb);
