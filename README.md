@@ -13,11 +13,8 @@
 ### 笔试题
 - [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java)
 
-- [面向对象特性](https://zhuanlan.zhihu.com/p/39459464)
-- [系统优化怎么做-新系统上线前做什么](https://zhuanlan.zhihu.com/p/39498511)
-- [系统优化怎么做-数据库优化](https://zhuanlan.zhihu.com/p/39658503)
-- [系统优化怎么做-SQL优化](https://zhuanlan.zhihu.com/p/39736653)
-- [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
+### 基础知识
+- [面向对象特性](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
 
 ### 系统优化知乎专栏
 - [系统优化怎么做-开篇](https://zhuanlan.zhihu.com/p/39459464)
