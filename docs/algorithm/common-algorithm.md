@@ -1116,7 +1116,7 @@ public class LinkedListMergeSort {
  * 1 将数组倒置，这样后k个元素就跑到了数组的前面，然后反转一下即可
  * 2 同理后 len-k个元素只需要翻转就完成数组的k次移动
  *
- * @author 656369960@qq.com
+ * @author jsong
  * @date 12/7/2018 1:38 PM
  * @since 1.0
  */
