@@ -11,7 +11,13 @@
 | [系统优化知乎专栏](#系统优化知乎专栏) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) | [分布式](#分布式相关) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
 
 ### 笔试题
-- [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/red/RedPacket.java)
+- [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java)
+
+- [面向对象特性](https://zhuanlan.zhihu.com/p/39459464)
+- [系统优化怎么做-新系统上线前做什么](https://zhuanlan.zhihu.com/p/39498511)
+- [系统优化怎么做-数据库优化](https://zhuanlan.zhihu.com/p/39658503)
+- [系统优化怎么做-SQL优化](https://zhuanlan.zhihu.com/p/39736653)
+- [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
 
 ### 系统优化知乎专栏
 - [系统优化怎么做-开篇](https://zhuanlan.zhihu.com/p/39459464)

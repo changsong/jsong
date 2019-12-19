@@ -1,6 +1,6 @@
 package com.jsong.algorithm.amzon;
 
-import com.jsong.interview.amazon.Amazon;
+import com.jsong.interview.amazon.TreasureTruck;
 import org.assertj.core.util.Lists;
 import org.junit.Test;
 
@@ -54,7 +54,7 @@ public class AmazonTest {
         row4.add(3, 0);
         grid.add(row4);
 
-        Amazon Amazon = new Amazon();
+        TreasureTruck Amazon = new TreasureTruck();
         int count = Amazon.numberAmazonTreasureTrucks(4,4,grid );
         System.out.println(count);
     }

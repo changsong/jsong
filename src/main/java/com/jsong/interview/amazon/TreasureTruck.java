@@ -50,7 +50,7 @@ import java.util.Stack;
  *
  *
  * */
- public class Amazon {
+ public class TreasureTruck {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
     public int numberAmazonTreasureTrucks(int rows, int column,
                                    List<List<Integer>> grid)
