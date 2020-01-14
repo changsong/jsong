@@ -1,6 +1,7 @@
 # LinkedHashMap 底层分析
 
-众所周知 [HashMap](https://github.com/jsong/Java-Interview/blob/master/MD/HashMap.md) 是一个无序的 `Map`，因为每次根据 `key` 的 `hashcode` 映射到 `Entry` 数组上，所以遍历出来的顺序并不是写入的顺序。
+众所周知 [HashMap](https://github.com/jsong/Java-Interview/blob/master/MD/HashMap.md) 是一个无序的 `Map`，
+因为每次根据 `key` 的 `hashcode` 映射到 `Entry` 数组上，所以遍历出来的顺序并不是写入的顺序。
 
 因此 JDK 推出一个基于 `HashMap` 但具有顺序的 `LinkedHashMap` 来解决有排序需求的场景。
 

@@ -1,6 +1,6 @@
 <div align="center">  
 
-<img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/jsong_logo.png" width=""/> 
+<img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/json_logo.jpg" width=""/> 
 <br/>
 
 </div><br>
