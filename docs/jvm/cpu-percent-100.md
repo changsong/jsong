@@ -147,6 +147,6 @@
 
 [https://github.com/changsong/jsong](https://github.com/changsong/jsong/tree/master/src/main/java/com/jsong/disruptor)
 
-**你的点赞与分享是对我最大的支持**
+
 
 ![](https://i.loli.net/2019/07/19/5d313848b169269048.jpg)

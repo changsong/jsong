@@ -1,14 +1,9 @@
 
 # 一个线程罢工的诡异事件
 
-
-![](https://i.loli.net/2019/07/19/5d313f4a3a31f18582.jpg)
-
 # 背景 
 
 事情（事故）是这样的，突然收到报警，线上某个应用里业务逻辑没有执行，导致的结果是数据库里的某些数据没有更新。
-
-虽然是前人写的代码，但作为 `Bug maker&killer` 只能咬着牙上了。
 
 <!--more-->
 
@@ -57,10 +52,6 @@
 
 
 所以对于开发者而言，这个消费逻辑其实是一个黑盒。
-
-于是在我反复 `review` 了消费代码中的数据解析逻辑发现不太可能出现问题后，便开始疯狂怀疑是不是 `disruptor` 自身的问题导致这个消费线程罢工了。
-
-再翻了一阵 `disruptor` 的源码后依旧没发现什么问题后我咨询对 `disruptor` 较熟的@咖啡拿铁，在他的帮助下在本地模拟出来和生产一样的情况。
 
 # 本地模拟
 
@@ -183,7 +174,4 @@
 实例代码：
 
 [https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/thread/ThreadExceptionTest.java](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/thread/ThreadExceptionTest.java)
-
-
-**你的点赞与分享是对我最大的支持**
 
