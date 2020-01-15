@@ -318,6 +318,6 @@ producer 不会等待副本的任何响应，这样最容易丢失消息但同�
 
 > 如果对你有帮助还请分享让更多的人看到。
 
-**欢迎关注公众号一起交流：**
+
 
 <img src="https://ws2.sinaimg.cn/large/006tKfTcly1fsa01u7ro1j30gs0howfq.jpg" width="300"/> 

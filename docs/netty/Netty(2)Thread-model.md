@@ -179,4 +179,4 @@ ServerBootstrap bootstrap = new ServerBootstrap()
 [https://github.com/jsong/netty-action](https://github.com/jsong/netty-action)
 
 
-**欢迎关注公众号一起交流：**
+

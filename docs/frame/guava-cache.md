@@ -105,11 +105,11 @@ Google 出的 [Guava](https://github.com/google/guava) 是 Java 核心增强的�
 
 大胆假设下：
 
-> 内部通过一个队列来维护缓存的顺序，每次访问过的数据移动到队列头部，并且额外开启一个线程来判断数据是否过期，过期就删掉。有点类似于我之前写过的 [动手实现一个 LRU cache](https://jsong.top/%2F2018%2F04%2F07%2Falgorithm%2FLRU-cache%2F)
+> 内部通过一个队列来维护缓存的顺序，每次访问过的数据移动到队列头部，并且额外开启一个线程来判断数据是否过期，过期就删掉。
+> 有点类似于之前写过的 [动手实现一个 LRU cache](https://jsong.top/%2F2018%2F04%2F07%2Falgorithm%2FLRU-cache%2F)
 
 
 胡适说过：大胆假设小心论证
-
 下面来看看 Guava 到底是怎么实现。
 
 ### 原理分析

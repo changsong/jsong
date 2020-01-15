@@ -380,8 +380,6 @@ bitsChanged |= bits.set((combinedHash & Long.MAX_VALUE) % bitSize);
 
 布隆过滤的应用还是蛮多的，比如数据库、爬虫、防缓存击穿等。
 特别是需要精确知道某个数据不存在时做点什么事情就非常适合布隆过滤。
-这段时间的研究发现算法也挺有意思的，后续应该会继续分享一些类似的内容。
-如果对你有帮助那就分享一下吧。
 
 本问的示例代码参考这里：
 [https://github.com/changsong/jsong](https://github.com/changsong/jsong/blob/master/src/test/java/com/jsong/algorithm/BloomFiltersTest.java)

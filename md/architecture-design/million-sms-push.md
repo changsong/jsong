@@ -348,6 +348,6 @@ log.info("客户端下线，TelNo=" +  telNo);
 
 看完之后觉得有帮助的还请不吝转发分享。
 
-**欢迎关注公众号一起交流：**
+
 
 ![](https://ws4.sinaimg.cn/large/006tNbRwgy1fvkwiw9pwaj30760760t7.jpg)
