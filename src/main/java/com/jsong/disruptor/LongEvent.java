@@ -9,6 +9,7 @@ package com.jsong.disruptor;
  * @since JDK 1.8
  */
 public class LongEvent {
+
     private long value;
 
     public void set(long value) {

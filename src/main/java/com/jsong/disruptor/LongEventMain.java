@@ -35,7 +35,7 @@ public class LongEventMain {
                 .setNameFormat("product-%d")
                 .setDaemon(true)
                 .build();
-        ThreadPoolExecutor productExecutor = new ThreadPoolExecutor(2, 2, 1, TimeUnit.MILLISECONDS, queue,product);
+        ThreadPoolExecutor productExecutor = new ThreadPoolExecutor(2, 2, 1, TimeUnit.MILLISECONDS, queue, product);
 
 
         // The factory for the event
@@ -43,29 +43,29 @@ public class LongEventMain {
         // Specify the size of the ring buffer, must be power of 2.
         int bufferSize = 8;
 
-        for (int i = 0; i < 1; i++) {
-            // Construct the Disruptor
-            //Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, executor);
-            Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, executor, ProducerType.SINGLE,
-                    new YieldingWaitStrategy());
 
-            // Connect the handler
-            disruptor.handleEventsWith(new LongEventHandler());
+        // Construct the Disruptor
+        //Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, executor);
+        Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, executor, ProducerType.SINGLE,
+                new YieldingWaitStrategy());
 
-            // Start the Disruptor, starts all threads running
-            disruptor.start();
+        // Connect the handler
+        disruptor.handleEventsWith(new LongEventHandler());
 
-            // Get the ring buffer from the Disruptor to be used for publishing.
-            RingBuffer<LongEvent> ringBuffer = disruptor.getRingBuffer();
+        // Start the Disruptor, starts all threads running
+        disruptor.start();
 
-            LongEventProducer producer = new LongEventProducer(ringBuffer);
+        // Get the ring buffer from the Disruptor to be used for publishing.
+        RingBuffer<LongEvent> ringBuffer = disruptor.getRingBuffer();
 
-            for (long l = 0; l < 1000000; l++) {
-                //producer.onData(l);
-                //Thread.sleep(1000);
-                productExecutor.execute(new Work(producer,l));
-            }
+        LongEventProducer producer = new LongEventProducer(ringBuffer);
+
+        for (long l = 0; l < 10000; l++) {
+//                producer.onData(l);
+//                Thread.sleep(1000);
+            productExecutor.execute(new Work(producer,l));
         }
+
 
         productExecutor.shutdown();
         while (!productExecutor.awaitTermination(1, TimeUnit.SECONDS)) {

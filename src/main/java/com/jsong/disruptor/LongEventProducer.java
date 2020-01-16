@@ -23,10 +23,12 @@ public class LongEventProducer {
 
     public void onData(long bb) {
         ringBuffer.getCursor();
-        long sequence = ringBuffer.next();  // Grab the next sequence
+        // Grab the next sequence
+        long sequence = ringBuffer.next();
 
         try {
-            LongEvent event = ringBuffer.get(sequence); // Get the entry in the Disruptor
+            // Get the entry in the Disruptor
+            LongEvent event = ringBuffer.get(sequence);
             // for the sequence
             //LOGGER.info("product=[{}]",bb);
             event.set(bb);  // Fill with data
