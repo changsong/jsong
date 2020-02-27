@@ -36,7 +36,7 @@ public class ThreadExceptionTest {
         TimeUnit.SECONDS.sleep(5);
 
 
-        execute.execute(new Run1());
+//        execute.execute(new Run1());
 
         //TimeUnit.SECONDS.sleep(5);
         //

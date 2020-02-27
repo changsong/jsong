@@ -5,10 +5,9 @@ import com.jsong.design.pattern.chainofresponsibility.impl.SensitiveWordProcess;
 import com.jsong.design.pattern.chainofresponsibility.impl.TypoProcess;
 
 /**
- * Function:
+ * Function: 链式处理
  *
  * 参照：
- *
  * http://commons.apache.org/proper/commons-chain/
  * 支持配置文件配置
  *
