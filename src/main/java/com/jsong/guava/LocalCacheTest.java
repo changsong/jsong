@@ -17,7 +17,6 @@ public class LocalCacheTest {
         for(int i=0; i < 2000; i++){
             login("1861717123"+ i );
         }
-
         // https://github.com/changsong/jsong.git
     }
 
@@ -27,19 +26,16 @@ public class LocalCacheTest {
      * @param mobile
      */
     private static void login(String mobile){
-        // 不同用户登录两千次
-        for(int i=0; i < 2000; i++){
-            String key = "loginUserCache_" + mobile;
-            String val = LocalCache.getData(key);
-            if(StringUtils.isEmpty(val)){
-                try{
-                    // get user status from erp to
-                    // check user is invalid or not.
-                    String newval = "response data";
-                    LocalCache.setData(key, newval, 3600);
-                } catch (Exception e){
-                    e.printStackTrace();
-                }
+        String key = "loginUserCache_";
+        String val = LocalCache.getData(key);
+        if(StringUtils.isEmpty(val)){
+            try{
+                // Get user status from ERP to
+                // check user is invalid or not.
+                String newval = "response data";
+                LocalCache.setData(key, newval, 3600);
+            } catch (Exception e){
+                e.printStackTrace();
             }
         }
     }

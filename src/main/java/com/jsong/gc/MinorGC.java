@@ -10,18 +10,14 @@ package com.jsong.gc;
 public class MinorGC {
 
     /**
-     * 1M
+     * 10M
      */
     private static final int SIZE = 10* 1024 * 1024 ;
 
     /**
      *
      * 设置JVMOption参数
-     -XX:+PrintGCDetails
-     -Xms20M
-     -Xmx20M
-     -Xmn10M
-     -XX:SurvivorRatio=8
+     -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8
 
      JDK1.7及以下
      https://pic2.zhimg.com/80/v2-5950119123225fc73e7705aadd512739_hd.jpg
@@ -44,10 +40,7 @@ public class MinorGC {
     public static void main(String[] args) {
         byte[] one ;
         byte[] four ;
-
         one = new byte[2 * SIZE] ;
-
-
         //再分配一个 5M 内存时，Eden区不够了，
         four = new byte[5 * SIZE] ;
     }
