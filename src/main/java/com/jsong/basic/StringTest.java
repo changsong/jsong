@@ -27,6 +27,7 @@ public class StringTest {
 
 
         //用反射的方式改变字符串的值
+        // OOP
         Field value = a.getClass().getDeclaredField("value");
         //改变 value 的访问属性
         value.setAccessible(true) ;

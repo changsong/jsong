@@ -12,7 +12,10 @@ import java.util.Map;
  * @since JDK 1.8
  */
 public class HashMapTest {
+
+
     public static void main(String[] args) {
+
         Map<String, Integer> map = new HashMap<>(16);
         map.put("1", 1);
         map.put("2", 2);
