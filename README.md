@@ -10,6 +10,21 @@
 | :--------: | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
 | [系统优化知乎专栏](#系统优化知乎专栏) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) | [分布式](#分布式相关) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
 
+### 编码规范
+- [阿里编码规范](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
+- [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
+- [Google JavaScript编码规范(中文版)](https://google.github.io/styleguide/jsguide.html#introduction)
+- [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
+- [Python 编码规范(英文版)](https://google.github.io/styleguide/pyguide.html)
+- [Python 编码规范(中文版)](https://nkcoder.github.io/2019/08/17/google-style-guide-python/)
+- [C++编码规范](https://google.github.io/styleguide/cppguide.html)
+
+#### 代码自动检测插件
+- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
+- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
+- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+
+
 ### 笔试题
 - [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java)
 

@@ -35,7 +35,6 @@ public class ThreadExceptionTest {
 
         TimeUnit.SECONDS.sleep(5);
 
-
 //        execute.execute(new Run1());
 
         //TimeUnit.SECONDS.sleep(5);
@@ -47,7 +46,6 @@ public class ThreadExceptionTest {
 
 
     private static class Run1 implements Runnable {
-
         @Override
         public void run() {
             int count = 0;

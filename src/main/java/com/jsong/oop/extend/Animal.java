@@ -30,4 +30,11 @@ public class Animal {
     public void introduction() {
         System.out.println("大家好！我是"         + id + "号" + name + ".");
     }
+
+    public static void main(String[] args){
+        Animal mouse1 =  new Mouse("Mounse1", 1);
+        mouse1.eat();
+        mouse1.sleep();
+        mouse1.introduction();
+    }
 }
