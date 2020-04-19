@@ -18,24 +18,24 @@
 | [系统优化知乎专栏](#系统优化知乎专栏) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) | [分布式](#分布式相关) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
 
 ### 编码规范
-- [阿里编码规范](https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf)
-- [HTML规范](https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf)
-- [JavaScript规范](https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf)
-- [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
-- [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
-- [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
-- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
+- [阿里编码规范](https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf){:target="_blank"}
+- [HTML规范](https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf){:target="_blank"}
+- [JavaScript规范](https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf){:target="_blank"}
+- [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction){:target="_blank"}
+- [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html){:target="_blank"}
+- [Google C++编码规范](https://google.github.io/styleguide/cppguide.html){:target="_blank"}
+- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents){:target="_blank"}
 
 
 #### 代码自动检测插件
-- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin){:target="_blank"}
+- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin){:target="_blank"}
+- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd){:target="_blank"}
 
 #### 代码优化
-- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin){:target="_blank"}
+- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin){:target="_blank"}
+- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd){:target="_blank"}
 
 
 ### 笔试题
