@@ -1,4 +1,4 @@
-![](https://ws3.sinaimg.cn/large/006tKfTcly1fqrle104hwj31i6104aig.jpg)
+![](https://i.loli.net/2019/06/26/5d1394364203855229.jpg)
 
 ## 前言
 
@@ -151,15 +151,15 @@ public void doSomething(){}
 
 > 为了验证分布式效果启动了两个 Order 应用。
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1fqrnxt2l8lj313x09rwfm.jpg)
+![](https://i.loli.net/2019/06/26/5d139436e765a73996.jpg)
 
 效果如下：
-![](https://ws1.sinaimg.cn/large/006tKfTcly1fqrlvvj8cbj31kw0f1wws.jpg)
+![](https://i.loli.net/2019/06/26/5d13943f1d81465048.jpg)
 
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1fqrlznycdnj31kw0gbh0n.jpg)
+![](https://i.loli.net/2019/06/26/5d139440e0b0e36306.jpg)
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1fqrm0jpbjjj31kw04wgq9.jpg)
+![](https://i.loli.net/2019/06/26/5d139441c7bb338785.jpg)
 
 
 ## 实现原理
@@ -442,8 +442,8 @@ public class CommonAspect {
     @Autowired
     private RedisLimit redisLimit ;
 
-    @Pointcut("@annotation(com.jsong.distributed.annotation.CommonLimit)")
-    private void check(){}
+    @Pointcut(jsong)
+    prcom.jsong(){}
 
     @Before("check()")
     public void before(JoinPoint joinPoint) throws Exception {
@@ -467,9 +467,12 @@ public class CommonAspect {
 当然使用时也得扫描到该包:
 
 ```java
-@ComponentScan(value = jcom.jsong结
+@ComponentScan(value = jsong)
+```
 
-**限流**在一个高并发大流量的系统中是保护应用的一个利器，成熟的方案也很多，希望对刚了解这一块的朋友提供一些思路。
+### 总结
+
+**限流**在一个高并发大流量的系统中是保护应用的一个利器，成熟的方案也很多，希望对com.jsong
 
 以上所有的源码：
 
