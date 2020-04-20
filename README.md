@@ -18,9 +18,9 @@
 | [系统优化知乎专栏](#系统优化知乎专栏) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) | [分布式](#分布式相关) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
 
 ### 编码规范
-- <a href="https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf" target= _blank>阿里编码规范</a>
-- <a href="https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf" target= _blank>HTML规范</a>
-- <a href="https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf" target= _blank>JavaScript规范</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf" target= "_blank">阿里编码规范</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf" target= "_blank">HTML规范</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf" target= "_blank">JavaScript规范</a>
 - <a href="https://google.github.io/styleguide/jsguide.html#introduction" target= _blank>Google JavaScript编码规范(英文版)</a>
 - <a href="https://google.github.io/styleguide/htmlcssguide.html" target= _blank>Google Html/CSS 编码规范</a>
 - <a href="https://google.github.io/styleguide/cppguide.html" target= _blank>Google C++编码规范</a>
