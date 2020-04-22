@@ -1,38 +1,37 @@
-* [Home](/)
-
 - 编码规范
-- [阿里编码规范](https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf)
-- [HTML规范](https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf)
-- [JavaScript规范](https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf)
-- [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
-- [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
-- [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
-- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
 
+    - [阿里编码规范](https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf)
+    - [HTML规范](https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf)
+    - [JavaScript规范](https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf)
+    - [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
+    - [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
+    - [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
+    - [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
 
 - 代码自动检测插件
-- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+    - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
+    - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
+    - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
 
 - 代码优化
-- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+    - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
+    - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
+    - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
 
 
 - 笔试题
-- [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java)
+    - [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java)
 
--  基础知识
-- [面向对象特性](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
+- 基础知识
+   - [面向对象特性](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
 
 - 系统优化知乎专栏
-- [系统优化怎么做-开篇](https://zhuanlan.zhihu.com/p/39459464)
-- [系统优化怎么做-新系统上线前做什么](https://zhuanlan.zhihu.com/p/39498511)
-- [系统优化怎么做-数据库优化](https://zhuanlan.zhihu.com/p/39658503)
-- [系统优化怎么做-SQL优化](https://zhuanlan.zhihu.com/p/39736653)
-- [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
+
+   - [系统优化怎么做-开篇](https://zhuanlan.zhihu.com/p/39459464)
+   - [系统优化怎么做-新系统上线前做什么](https://zhuanlan.zhihu.com/p/39498511)
+   - [系统优化怎么做-数据库优化](https://zhuanlan.zhihu.com/p/39658503)
+   - [系统优化怎么做-SQL优化](https://zhuanlan.zhihu.com/p/39736653)
+   - [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
 
 - 集合
 
@@ -106,6 +105,7 @@
   - [动手实现一个 LRU cache](cache/LRU-cache.md)
   - [亿级数据中判断数据是否不存在](algorithm/guava-bloom-filter.md)
 
+
 - Netty 相关
 
   - [SpringBoot 整合长连接心跳机制](netty/Netty(1)TCP-Heartbeat.md)
@@ -113,9 +113,11 @@
   - [自己实现一个轻量级 HTTP 框架](netty/cicada.md)
   - [为自己搭建一个分布式 IM(即时通讯) 系统](netty/cim.md)
 
-- 网络
+- 附加技能
 
-  - [TCP/IP 协议](network/TCP-IP.md)
-
+  - [TCP/IP 协议](net-work/TCP-IP.md)
+  - [一个学渣的阿里之路](net-work/Interview-experience.md)
+  - [如何成为一位「不那么差」的程序员](net-work/how-to-be-developer.md)
+  - [如何高效的使用 Git](net-work/how-to-use-git-efficiently.md)
 
 - [联系作者](contactme.md)
