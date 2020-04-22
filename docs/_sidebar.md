@@ -1,29 +1,26 @@
-- 编码规范
-
-    - [阿里编码规范](https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf)
-    - [HTML规范](https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf)
-    - [JavaScript规范](https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf)
-    - [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
-    - [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
-    - [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
-    - [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
-
-- 代码自动检测插件
-    - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-    - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-    - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
-
-- 代码优化
-    - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-    - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-    - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
-
 
 - 笔试题
-    - [Amazon](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java)
+    - [Amazon](interview/amazon.md)
 
 - 基础知识
    - [面向对象特性](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
+   
+- 编码规范
+   - [阿里编码规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/ali_code_guide.pdf)
+   - [HTML规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/html_guide.pdf)
+   - [JavaScript规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/javascript_guide.pdf)
+   - [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
+   - [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
+   - [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
+   - [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
+   - 代码自动检测插件
+       - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
+       - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
+       - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+   - 代码优化
+       - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
+       - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
+       - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
 
 - 系统优化知乎专栏
 
