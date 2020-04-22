@@ -5,7 +5,7 @@
 
 ## B+ Tree 的数据结构
 
-![](https://i.loli.net/2019/06/26/5d139411b683d65706.jpg)
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fn10d6j9sij30hc08cab3.jpg)
 
 如图所示是 `B+ Tree` 的数据结构。是由一个一个的磁盘块组成的树形结构，每个磁盘块由数据项和指针组成。
 
@@ -23,4 +23,4 @@
 
 磁盘块越大，数据项越小那么树的高度就越低。这也就是为什么索引字段要尽可能小的原因。
 
-> 索引使用的一些[原则](db/SQL-optimization.md)。
+> 索引使用的一些[原则](https://github.com/jsong/Java-Interview/blob/master/docs/SQL-optimization.md)。

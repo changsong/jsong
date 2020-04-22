@@ -21,7 +21,6 @@ public class CommandUser extends HystrixCommand<String> {
 
     public CommandUser(String userName) {
 
-
         super(Setter.withGroupKey(
                 //服务分组
                 HystrixCommandGroupKey.Factory.asKey("UserGroup"))

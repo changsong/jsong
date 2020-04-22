@@ -36,7 +36,7 @@
 
   - [分布式限流](distributed/Distributed-Limit.md)
   - [基于 Redis 的分布式锁](distributed/distributed-lock-redis.md)
-  - [分布式缓存设计](distributed/Cache-design.md)
+  - [分布式缓存设计](cache/Cache-design.md)
   - [分布式 ID 生成器](distributed/ID-generator.md)
 
 - 常用框架
@@ -67,7 +67,7 @@
   - [一致性 Hash 算法原理](algorithm/Consistent-Hash.md)
   - [一致性 Hash 算法实践](algorithm/consistent-hash-implement.md)
   - [限流算法](algorithm/Limiting.md)
-  - [动手实现一个 LRU cache](algorithm/LRU-cache.md)
+  - [动手实现一个 LRU cache](cache/LRU-cache.md)
   - [亿级数据中判断数据是否不存在](algorithm/guava-bloom-filter.md)
 
 

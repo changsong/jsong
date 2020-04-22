@@ -7,7 +7,7 @@
 只要将`-Xms(最小堆)`,`-Xmx(最大堆)` 设置为一样禁止自动扩展堆内存。
 
 
-当使用一个 `while(true)` 循环来不断创建对象就会发生 `OutOfMemory`，还可以使用 `-XX:+HeapDumpOutofMemoryErorr` 当发生 OOM 时会自动 dump 堆栈到文件中。
+当使用一个 `while(true)` 循环来不断创建对象就会发生 `OutOfMemory`，还可以使用 `-XX:+HeapDumpOnOutOfMemoryError` 当发生 OOM 时会自动 dump 堆栈到文件中。
 
 伪代码:
 
@@ -20,7 +20,7 @@
     }
 ```
 
-当出现 OOM 时可以通过工具来分析 `GC-Roots` [引用链](https://github.com/jsong/Java-Interview/blob/master/MD/GarbageCollection.md#%E5%8F%AF%E8%BE%BE%E6%80%A7%E5%88%86%E6%9E%90%E7%AE%97%E6%B3%95) ，查看对象和 `GC-Roots` 是如何进行关联的，是否存在对象的生命周期过长，或者是这些对象确实改存在的，那就要考虑将堆内存调大了。
+当出现 OOM 时可以通过工具来分析 `GC-Roots` [引用链](https://github.com/jsong/Java-Interview/blob/master/docs/GarbageCollection.md#%E5%8F%AF%E8%BE%BE%E6%80%A7%E5%88%86%E6%9E%90%E7%AE%97%E6%B3%95) ，查看对象和 `GC-Roots` 是如何进行关联的，是否存在对象的生命周期过长，或者是这些对象确实改存在的，那就要考虑将堆内存调大了。
 
 ```
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space

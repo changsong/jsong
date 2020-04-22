@@ -30,7 +30,6 @@ public class RedPacket {
      * 大于最大值
      */
     private static final int MORE = -2;
-
     /**
      * 正常值
      */

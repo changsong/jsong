@@ -1,6 +1,6 @@
 # Java 运行时的内存划分
 
-![](https://i.loli.net/2019/07/19/5d31384c568c531115.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79ly1fmk5v19cmvj30g20anq3y.jpg)
 
 ## 程序计数器
 
@@ -45,7 +45,7 @@
 
 默认情况下元数据区域会根据使用情况动态调整，避免了在 1.7 中由于加载类过多从而出现 `java.lang.OutOfMemoryError: PermGen`。
 
-但也不能无线扩展，因此可以使用 `-XX:MaxMetaspaceSize`来控制最大内存。
+但也不能无限扩展，因此可以使用 `-XX:MaxMetaspaceSize`来控制最大内存。
 
 
 
@@ -71,9 +71,10 @@
 
 **值得注意的是**：由于堆外内存也是内存，是由操作系统管理。如果应用有使用堆外内存则需要平衡虚拟机的堆内存和堆外内存的使用占比。避免出现堆外内存溢出。
 
+
 ## 常用参数
 
-![](https://i.loli.net/2019/07/19/5d31384cbc79744624.jpg)
+![](https://ws1.sinaimg.cn/large/006tNbRwly1fxjcmnkuqyj30p009vjsn.jpg)
 
 通过上图可以直观的查看各个区域的参数设置。
 

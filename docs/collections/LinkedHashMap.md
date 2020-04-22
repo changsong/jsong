@@ -1,6 +1,7 @@
 # LinkedHashMap 底层分析
 
-众所周知 [HashMap](https://github.com/jsong/Java-Interview/blob/master/MD/HashMap.md) 是一个无序的 `Map`，因为每次根据 `key` 的 `hashcode` 映射到 `Entry` 数组上，所以遍历出来的顺序并不是写入的顺序。
+众所周知 [HashMap](https://github.com/jsong/Java-Interview/blob/master/docs/HashMap.md) 是一个无序的 `Map`，
+因为每次根据 `key` 的 `hashcode` 映射到 `Entry` 数组上，所以遍历出来的顺序并不是写入的顺序。
 
 因此 JDK 推出一个基于 `HashMap` 但具有顺序的 `LinkedHashMap` 来解决有排序需求的场景。
 
@@ -86,7 +87,7 @@
     }
 ```
 
-这个构造方法可以显示的传入 `accessOrder `。
+这个构造方法可以显式的传入 `accessOrder `。
 
 
 ## 构造方法
@@ -137,7 +138,7 @@
 
 看 `LinkedHashMap` 的 `put()` 方法之前先看看 `HashMap` 的 `put` 方法：
 
-```
+```java
     public V put(K key, V value) {
         if (table == EMPTY_TABLE) {
             inflateTable(threshold);
@@ -273,6 +274,6 @@ LinkedHashMap 的 `get()` 方法也重写了：
 
 总的来说 `LinkedHashMap` 其实就是对 `HashMap` 进行了拓展，使用了双向链表来保证了顺序性。
 
-因为是继承与 `HashMap` 的，所以一些 `HashMap` 存在的问题 `LinkedHashMap` 也会存在，比如不支持并发等。
+因为是继承于 `HashMap` 的，所以一些 `HashMap` 存在的问题 `LinkedHashMap` 也会存在，比如不支持并发等。
 
 
