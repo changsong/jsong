@@ -1,4 +1,4 @@
-<img src="_media/icon-left-font-monochrome-black.png"  width="400" />
+<img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/json_logo.jpg"  width="400" />
 
-[GitHub](https://github.com/changsong/jsong)
+[GitHub](https://github.com/changsong/jsong.git)
 [Get Started](#introduction)
