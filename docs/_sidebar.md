@@ -1,5 +1,41 @@
 * [Home](/)
 
+### 编码规范
+- <a href="https://github.com/changsong/jsong/blob/master/docs/code-guide/ali_code_guide.pdf" target="_blank">阿里编码规范</a>
+- <a href="https://github.com/changsong/jsong/blob/master/docs/code-guide/html_guide.pdf" target="_blank">HTML规范</a>
+- <a href="https://github.com/changsong/jsong/blob/master/docs/code-guide/javascript_guide.pdf" target="_blank">JavaScript规范</a>
+- <a href="https://google.github.io/styleguide/jsguide.html#introduction" target="_blank">Google JavaScript编码规范(英文版)</a>
+- <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank">Google Html/CSS 编码规范</a>
+- <a href="https://google.github.io/styleguide/cppguide.html" target="_blank">Google C++编码规范</a>
+- <a href="https://zh-google-styleguide.readthedocs.io/en/latest/contents" target= _blank>Google编码规范(中文版) C++,Python.Shell, Objective-C</a>
+
+
+#### 代码自动检测插件
+- <a href="https://github.com/alibaba/p3c/tree/master/idea-plugin" target= _blank>idea</a> 
+- <a href="https://github.com/alibaba/p3c/tree/master/eclipse-plugin" target= _blank>eclipse</a>
+- <a href="https://github.com/alibaba/p3c/tree/master/p3c-pmd" target= _blank>p2c</a>
+
+#### 代码优化
+- <a href="https://github.com/alibaba/p3c/tree/master/idea-plugin" target= _blank>idea</a>
+- <a href="https://github.com/alibaba/p3c/tree/master/eclipse-plugin" target= _blank>eclipse</a>
+- <a href="https://github.com/alibaba/p3c/tree/master/p3c-pmd" target= _blank>pmd</a>
+
+### 面试问题
+- <a href="" target= _blank>怎么去掉处理</a>
+
+### 笔试题
+- <a href="https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/interview/amazon/TreasureTruck.java" target= _blank>Amazon</a>
+
+### 基础知识
+- <a href="https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/" target= _blank>面向对象特性</a>
+
+### 系统优化知乎专栏
+- <a href="https://zhuanlan.zhihu.com/p/39459464" target= _blank>系统优化怎么做-开篇</a>
+- <a href="https://zhuanlan.zhihu.com/p/39498511" target= _blank>系统优化怎么做-新系统上线前做什么</a>
+- <a href="https://zhuanlan.zhihu.com/p/39658503" target= _blank>系统优化怎么做-数据库优化</a>
+- <a href="https://zhuanlan.zhihu.com/p/39736653" target= _blank>系统优化怎么做-SQL优化</a>
+- <a href="https://zhuanlan.zhihu.com/p/39983734" target= _blank>系统优化怎么做-Linux系统配置优化</a>
+
 - 集合
 
   - [ArrayList/Vector](collections/ArrayList.md)
@@ -72,7 +108,6 @@
   - [动手实现一个 LRU cache](cache/LRU-cache.md)
   - [亿级数据中判断数据是否不存在](algorithm/guava-bloom-filter.md)
 
-
 - Netty 相关
 
   - [SpringBoot 整合长连接心跳机制](netty/Netty(1)TCP-Heartbeat.md)
@@ -80,11 +115,9 @@
   - [自己实现一个轻量级 HTTP 框架](netty/cicada.md)
   - [为自己搭建一个分布式 IM(即时通讯) 系统](netty/cim.md)
 
-- 附加技能
+- 网络
 
   - [TCP/IP 协议](network/TCP-IP.md)
-  - [一个学渣的阿里之路](network/Interview-experience.md)
-  - [如何成为一位「不那么差」的程序员](network/how-to-be-developer.md)
-  - [如何高效的使用 Git](network/how-to-use-git-efficiently.md)
+
 
 - [联系作者](contactme.md)
