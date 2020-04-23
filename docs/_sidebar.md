@@ -1,5 +1,7 @@
+- [首页](contactme.md)
+
 - 笔试题
-    - [Amazon](interview/amazon.md)
+   - [Amazon](interview/amazon.md)
 
 - 基础知识
    - [面向对象特性](oo-design/oo-design.md)
@@ -113,4 +115,6 @@
 
   - [TCP/IP 协议](net-work/TCP-IP.md)
 
-- [联系作者](contactme.md)
+- 联系作者
+
+  - [联系作者](contactme.md)
