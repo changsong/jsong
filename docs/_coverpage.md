@@ -3,5 +3,5 @@
 </div>
 
 [GitHub](https://github.com/changsong/jsong.git)
-[开始](interview/amazon)
+[开始](contactme)
 

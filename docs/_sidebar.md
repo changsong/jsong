@@ -1,9 +1,8 @@
-
 - 笔试题
     - [Amazon](interview/amazon.md)
 
 - 基础知识
-   - [面向对象特性](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
+   - [面向对象特性](oo-design/oo-design.md)
    
 - 编码规范
    - [阿里编码规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/ali_code_guide.pdf)
@@ -113,8 +112,5 @@
 - 附加技能
 
   - [TCP/IP 协议](net-work/TCP-IP.md)
-  - [一个学渣的阿里之路](net-work/Interview-experience.md)
-  - [如何成为一位「不那么差」的程序员](net-work/how-to-be-developer.md)
-  - [如何高效的使用 Git](net-work/how-to-use-git-efficiently.md)
 
 - [联系作者](contactme.md)
