@@ -1,4 +1,4 @@
-![](https://i.loli.net/2019/06/26/5d139438c1cec87655.jpg)
+![](https://images.pexels.com/photos/409020/pexels-photo-409020.jpeg?cs=srgb&dl=pexels-409020.jpg&fm=jpg)
 
 ## 前言
 分布式锁在分布式应用中应用广泛，想要搞懂一个新事物首先得了解它的由来，这样才能更加的理解甚至可以举一反三。

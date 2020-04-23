@@ -1,9 +1,6 @@
 
 # 红包算法
 
-# 红包算法
-
-
 ```java
 public class RedPacket {
 
@@ -139,7 +136,6 @@ public class RedPacket {
 
 }
 ```
-
 
 
 # 二叉树层序遍历
