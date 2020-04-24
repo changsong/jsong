@@ -7,7 +7,7 @@
    - [面向对象特性](oo-design/oo-design.md)
    
 - 编码规范
-   - [阿里编码规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/ali_code_guide.pdf)
+   - [阿里编码规范](code-guide/ali_code_guide.md)
    - [HTML规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/html_guide.pdf)
    - [JavaScript规范](https://github.com/changsong/jsong/blob/master/docs/code-guide/javascript_guide.pdf)
    - [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)

@@ -17,6 +17,7 @@
 | :--------: | :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
 | [系统优化知乎专栏](#系统优化知乎专栏) | [集合](#常用集合) | [多线程](#java-多线程)|[JVM](#jvm) | [分布式](#分布式相关) |[框架](#常用框架第三方组件)|[架构设计](#架构设计)| [数据库](#db-相关) |[算法](#数据结构与算法)|[Netty](#netty-相关)| [附加技能](#附加技能)|[联系作者](#联系作者) |
 
+- ## [Jsong主页地址](https://jsong.zsihuo.com)
 
 ### 笔试题
 - [Amazon](https://jsong.zsihuo.com/#/interview/amazon)
@@ -101,10 +102,10 @@
 - [一次生产 CPU 100% 排查优化实践](https://jsong.zsihuo.com/#/jvm/cpu-percent-100)
 
 ### 分布式相关
-- [分布式限流](http://jsong.top/2018/04/28/sbc/sbc7-Distributed-Limit/)
-- [基于 Redis 的分布式锁](http://jsong.top/2018/03/29/distributed-lock/distributed-lock-redis/)
-- [分布式缓存设计](https://github.com/changsong/jsong/blob/master/md/Cache-design)
-- [分布式 ID 生成器](https://github.com/changsong/jsong/blob/master/md/ID-generator)
+- [分布式限流](https://jsong.zsihuo.com/#/distributed/Distributed-Limit)
+- [基于 Redis 的分布式锁](hhttps://jsong.zsihuo.com/#/distributed/distributed-lock-redis/)
+- [分布式缓存设计](https://jsong.zsihuo.com/#/cache/Cache-design)
+- [分布式 ID 生成器](https://jsong.zsihuo.com/#/cache/ID-generator)
 
 ### 常用框架\第三方组件
 - [Spring Bean 生命周期](https://github.com/changsong/jsong/blob/master/md/spring/spring-bean-lifecycle)

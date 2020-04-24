@@ -1,5 +1,3 @@
-![](https://images.pexels.com/photos/45113/pexels-photo-45113.jpeg?cs=srgb&dl=id-45113.jpg&fm=jpg)
-
 # 分布式 ID 生成器
 
 一个唯一 ID 在一个分布式系统中是非常重要的一个业务属性，其中包括一些如订单 ID，消息 ID ，会话 ID，他们都有一些共有的特性：
