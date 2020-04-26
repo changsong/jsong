@@ -54,7 +54,7 @@
   - [『并发包入坑指北』之阻塞队列](thread/ArrayBlockingQueue.md)
 
 - JVM
-
+  - [GC日志解析](jvm/GC.md)
   - [Java 运行时内存划分](jvm/MemoryAllocation.md)
   - [类加载机制](jvm/ClassLoad.md)
   - [OOM 分析](jvm/OOM-analysis.md)
