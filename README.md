@@ -23,13 +23,13 @@
 - [Amazon](https://jsong.zsihuo.com/#/interview/amazon)
 
 ### 编码规范
-- [阿里编码规范](https://github.com/changsong/jsong/blob/master/md/code-guide/ali_code_guide.pdf)
-- [HTML规范](https://github.com/changsong/jsong/blob/master/md/code-guide/html_guide.pdf)
-- [JavaScript规范](https://github.com/changsong/jsong/blob/master/md/code-guide/javascript_guide.pdf)
-- [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
-- [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
-- [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
-- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
+- [阿里编码规范](https://jsong.zsihuo.com/#/code-guide/ali_code_guide)
+- [HTML规范](https://jsong.zsihuo.com/#/code-guide/html_guide)
+- [JavaScript规范](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
+- [Google JavaScript编码规范(英文版)](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
+- [Google Html/CSS 编码规范](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
+- [Google C++编码规范](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
+- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
 
 #### 代码自动检测插件
 - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
