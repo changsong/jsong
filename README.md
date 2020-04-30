@@ -35,10 +35,6 @@
 - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
 - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
 
-#### 代码优化
-- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
 
 ### 基础知识
 - [面向对象特性](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/oop/)
