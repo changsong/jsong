@@ -10,9 +10,7 @@
    - [阿里编码规范](code-guide/ali_code_guide.md)
    - [HTML规范](code-guide/html_guide.md)
    - [JavaScript规范](code-guide/javascript_guide.md)
-   - [Google JavaScript编码规范(英文版)](https://google.github.io/styleguide/jsguide.html#introduction)
-   - [Google Html/CSS 编码规范](https://google.github.io/styleguide/htmlcssguide.html)
-   - [Google C++编码规范](https://google.github.io/styleguide/cppguide.html)
+   - [JavaScript规范](code-guide/javascript_guide.md)
    - [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
    
 - 代码自动检测插件

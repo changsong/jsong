@@ -101,7 +101,7 @@ y = 20;
 }(window.consloe.log));
 ```
 
-把赋值尽量写在变量申明中。
+##### 把赋值尽量写在变量申明中。
 > 不推荐
 ```javascript
 var a,b,c;
@@ -185,8 +185,7 @@ if(!x) {
  ```javascript 
 x = x || y || 1;
  ```
-
-这一小技巧经常用来给方法设定默认的参数。
+> 这一小技巧经常用来给方法设定默认的参数。
  ```javascript
 (function(log){
       'use strict';
@@ -201,16 +200,21 @@ x = x || y || 1;
       multiply(9, 5); // Result 45
 }(window.console.log));
  ```
- 
-分号
+
+#### 分号
 总是使用分号，因为隐式的代码嵌套会引发难以察觉的问题。当然我们更要从根本上来杜绝这些问题
-Why?
+
+##### Why?
+
 JavaScript 中语句要以分号结束，否则它将会继续执行下去，不管换不换行。
 以上的每一个示例中，函数声明或对象或数组，都变成了在一句语句体内。
 要知道闭合圆括号并不代表语句结束，JavaScript 不会终结语句，除非它的下一个 token 是一个中缀符或者是圆括号操作符。
-澄清：分号与函数
+
+##### 澄清：分号与函数
+
 分号需要用在表达式的结尾，而并非函数声明的结尾。区分它们最好的例子是：
- 
+
+```javascript
 var foo = function() {
       return true;
 }; // semicolon here.
@@ -218,28 +222,34 @@ var foo = function() {
 function foo() {
     return true;
 } // no semicolon here.
- 
-嵌套函数
+```
+
+#### 嵌套函数
+
 嵌套函数是非常有用的，比如用在持续创建和隐藏辅助函数的任务中。你可以非常自由随意地使用它们。
  
-语句块内的函数声明
+##### 语句块内的函数声明
+
 切勿在语句块内声明函数，在 ECMAScript 5 的严格模式下，这是不合法的。函数声明应该在定义域的顶层。
 但在语句块内可将函数申明转化为函数表达式赋值给变量。
 > 不推荐
- 
+```javascript
 if (x) {
-      function foo() {}
+    function foo() {}
 }
+```
+
 > 推荐
- 
+```javascript
 if (x) {
       var foo = function() {};
 }
+```
  
-使用闭包
+#### 使用闭包
 闭包的创建也许是 JS 最有用也是最易被忽略的能力了。
  
-this 关键字
+##### this 关键字
  
 只在对象构造器、方法和在设定的闭包中使用 this 关键字。this 的语义在此有些误导。它时而指向全局对象（大多数时），时而指向调用者的定义域（在 eval 中），时而指向 DOM 树中的某一节点（当用事件处理绑定到 HTML 属性上时），时而指向一个新创建的对象（在构造器中），还时而指向其它的一些对象（如果函数被 call() 和 apply() 执行和调用时）。
  
@@ -248,17 +258,27 @@ this 关键字
 - 在构造函数中
 - 在对象的方法中（包括由此创建出的闭包内）
  
-字符串
+##### 字符串
+
 统一使用单引号(‘)，不使用双引号(“)。这在创建 HTML 字符串非常有好处：
+
+```javascript
 var msg = 'This is some HTML <div class="makes-sense"></div>';
-三元条件判断（if 的快捷方法）
+```
+
+##### 三元条件判断（if 的快捷方法）
+
 用三元操作符分配或返回语句。在比较简单的情况下使用，避免在复杂的情况下使用。没人愿意用 10 行三元操作符把自己的脑子绕晕。
 > 不推荐
- 
+```javascript
 if(x === 10) {
-      return 'valid';
+   return 'valid';
 } else {
-       return 'invalid';
+    return 'invalid';
 }
-> 推荐
- 
+```
+
+>推荐
+```javascript
+return x === 10 ? 'valid' : 'invalid';
+```
