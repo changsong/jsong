@@ -182,9 +182,9 @@ command1 \
   | command2 \
   | command3 \
   | command4
-循环
-```
 
+```
+### 循环
 #### Tip
 
 请将 ; do , ; then 和 while , for , if 放在同一行。
@@ -192,7 +192,7 @@ command1 \
 shell中的循环略有不同，但是我们遵循跟声明函数时的大括号相同的原则。也就是说， ; do , ; then 应该和 if/for/while 放在同一行。 else 应该单独一行，结束语句应该单独一行并且跟开始语句垂直对齐。
 
 例如：
-
+```shell
 for dir in ${dirs_to_cleanup}; do
   if [[ -d "${dir}/${ORACLE_SID}" ]]; then
     log_date "Cleaning up old files in ${dir}/${ORACLE_SID}"
@@ -207,14 +207,17 @@ for dir in ${dirs_to_cleanup}; do
     fi
   fi
 done
-case语句
+```
+
+
+### case语句
 #### Tip
 
 通过2个空格缩进可选项。
 在同一行可选项的模式右圆括号之后和结束符 ;; 之前各需要一个空格。
 长可选项或者多命令可选项应该被拆分成多行，模式、操作和结束符 ;; 在不同的行。
 匹配表达式比 case 和 esac 缩进一级。多行操作要再缩进一级。一般情况下，不需要引用匹配表达式。模式表达式前面不应该出现左括号。避免使用 ;& 和 ;;& 符号。
-
+```shell
 case "${expression}" in
   a)
     variable="..."
@@ -228,8 +231,10 @@ case "${expression}" in
     error "Unexpected expression '${expression}'"
     ;;
 esac
+```
 只要整个表达式可读，简单的命令可以跟模式和 ;; 写在同一行。这通常适用于单字母选项的处理。当单行容不下操作时，请将模式单独放一行，然后是操作，最后结束符 ;; 也单独一行。当操作在同一行时，模式的右括号之后和结束符 ;; 之前请使用一个空格分隔。
 
+```shell
 verbose='false'
 aflag=''
 bflag=''
@@ -243,7 +248,9 @@ while getopts 'abf:v' flag; do
     *) error "Unexpected option ${flag}" ;;
   esac
 done
-变量扩展
+```
+
+### 变量扩展
 #### Tip
 
 按优先级顺序：保持跟你所发现的一致；引用你的变量；推荐用 ${var} 而不是 $var ，详细解释如下。
@@ -255,6 +262,8 @@ done
 与现存代码中你所发现的保持一致。
 引用变量参阅下面一节，引用。
 除非绝对必要或者为了避免深深的困惑，否则不要用大括号将单个字符的shell特殊变量或定位变量括起来。推荐将其他所有变量用大括号括起来。
+
+```shell
 # Section of recommended cases.
 
 # Preferred style for 'special' variables:
@@ -285,7 +294,10 @@ echo a=$avar "b=$bvar" "PID=${$}" "${1}"
 # not "${10}${20}${30}
 set -- a b c
 echo "$10$20$30"
-引用
+
+```
+
+### 引用
 #### Tip
 
 除非需要小心不带引用的扩展，否则总是引用包含变量、命令替换符、空格或shell元字符的字符串。
@@ -293,6 +305,8 @@ echo "$10$20$30"
 千万不要引用整数。
 注意 [[ 中模式匹配的引用规则。
 请使用 $@ 除非你有特殊原因需要使用 $* 。
+```shell
+
 # 'Single' quotes indicate that no substitution is desired.
 # "Double" quotes indicate that substitution is required/tolerated.
 
@@ -345,10 +359,11 @@ grep -cP '([Ss]pecial|\|?characters*)$' ${1:+"$1"}
 
 set -- 1 "2 two" "3 three tres"; echo $# ; set -- "$*"; echo "$#, $@")
 set -- 1 "2 two" "3 three tres"; echo $# ; set -- "$@"; echo "$#, $@")
+```
 
+### 特性及错误
 
-特性及错误
-命令替换
+### 命令替换
 #### Tip
 
 使用 $(command) 而不是反引号。
@@ -356,7 +371,7 @@ set -- 1 "2 two" "3 three tres"; echo $# ; set -- "$@"; echo "$#, $@")
 嵌套的反引号要求用反斜杠转义内部的反引号。而 $(command) 形式嵌套时不需要改变，而且更易于阅读。
 
 例如：
-
+```shell
 # This is preferred:
 var="$(command "$(command1)")"
 
@@ -369,6 +384,7 @@ test，[和[[
 
 因为在 [[ 和 ]] 之间不会有路径名称扩展或单词分割发生，所以使用 [[ ... ]] 能够减少错误。而且 [[ ... ]] 允许正则表达式匹配，而 [ ... ] 不允许。
 
+```shell
 # This ensures the string on the left is made up of characters in the
 # alnum character class followed by the string name.
 # Note that the RHS should not be quoted here.
@@ -388,13 +404,17 @@ fi
 if [ "filename" == f* ]; then
   echo "Match"
 fi
-测试字符串
+
+```
+
+### 测试字符串
 #### Tip
 
 尽可能使用引用，而不是过滤字符串。
 
 Bash足以在测试中处理空字符串。所以，请使用空（非空）字符串测试，而不是过滤字符，使得代码更易于阅读。
 
+```shell
 # Do this:
 if [[ "${my_var}" = "some_string" ]]; then
   do_something
@@ -427,13 +447,16 @@ fi
 if [[ "${my_var}" ]]; then
   do_something
 fi
-文件名的通配符扩展
+```
+
+
+### 文件名的通配符扩展
 #### Tip
 
 当进行文件名的通配符扩展时，请使用明确的路径。
 
 因为文件名可能以 - 开头，所以使用扩展通配符 ./* 比 * 来得安全得多。
-
+```shell
 # Here's the contents of the directory:
 # -f  -r  somedir  somefile
 
@@ -450,24 +473,27 @@ rm: cannot remove `./somedir': Is a directory
 removed `./somefile'
 Eval
 #### Tip
+```
 
 应该避免使用eval。
 
 当用于给变量赋值时，Eval解析输入，并且能够设置变量，但无法检查这些变量是什么。
-
+```shell
 # What does this set?
 # Did it succeed? In part or whole?
 eval $(set_my_variables)
 
 # What happens if one of the returned values has a space in it?
 variable="$(eval some_function)"
-管道导向while循环
+```
+
+### 管道导向while循环
 #### Tip
 
 请使用过程替换或者for循环，而不是管道导向while循环。在while循环中被修改的变量是不能传递给父shell的，因为循环命令是在一个子shell中运行的。
 
 管道导向while循环中的隐式子shell使得追踪bug变得很困难。
-
+```shell
 last_line='NULL'
 your_command | while read line; do
   last_line="${line}"
@@ -504,15 +530,15 @@ cat /proc/mounts | while read src dest type opts rest; do
     echo "NFS ${dest} maps to ${src}"
   fi
 done
+```
 
-命名约定
-函数名
+### 命名约定 函数名
 #### Tip
 
 使用小写字母，并用下划线分隔单词。使用双冒号 :: 分隔库。函数名之后必须有圆括号。关键词 function 是可选的，但必须在一个项目中保持一致。
 
 如果你正在写单个函数，请用小写字母来命名，并用下划线分隔单词。如果你正在写一个包，使用双冒号 :: 来分隔包名。大括号必须和函数名位于同一行（就像在Google的其他语言一样），并且函数名和圆括号之间没有空格。
-
+```shell
 # Single function
 my_func() {
   ...
@@ -522,25 +548,27 @@ my_func() {
 mypackage::my_func() {
   ...
 }
+```
 当函数名后存在 () 时，关键词 function 是多余的。但是其促进了函数的快速辨识。
 
-变量名
+### 变量名
 #### Tip
 
 如函数名。
 
 循环的变量名应该和循环的任何变量同样命名。
-
+```shell
 for zone in ${zones}; do
   something_with "${zone}"
 done
-常量和环境变量名
+```
+### 常量和环境变量名
 #### Tip
 
 全部大写，用下划线分隔，声明在文件的顶部。
 
 常量和任何导出到环境中的都应该大写。
-
+```shell
 # Constant
 readonly PATH_TO_FILES='/some/path'
 
@@ -555,27 +583,30 @@ while getopts 'v' flag; do
   esac
 done
 readonly VERBOSE
-源文件名
+```
+
+### 源文件名
 #### Tip
 
 小写，如果需要的话使用下划线分隔单词。
 
 这是为了和在Google中的其他代码风格保持一致： maketemplate 或者 make_template ，而不是 make-template 。
 
-只读变量
+### 只读变量
 #### Tip
 
 使用 readonly 或者 declare -r 来确保变量只读。
 
 因为全局变量在shell中广泛使用，所以在使用它们的过程中捕获错误是很重要的。当你声明了一个变量，希望其只读，那么请明确指出。
-
+```shell
 zip_version="$(dpkg --status zip | grep Version: | cut -d ' ' -f 2)"
 if [[ -z "${zip_version}" ]]; then
   error_message
 else
   readonly zip_version
 fi
-使用本地变量
+```
+### 使用本地变量
 #### Tip
 
 使用 local 声明特定功能的变量。声明和赋值应该在不同行。
@@ -583,7 +614,7 @@ fi
 使用 local 来声明局部变量以确保其只在函数内部和子函数中可见。这避免了污染全局命名空间和不经意间设置可能具有函数之外重要性的变量。
 
 当赋值的值由命令替换提供时，声明和赋值必须分开。因为内建的 local 不会从命令替换中传递退出码。
-
+```shell
 my_func2() {
   local name="$1"
 
@@ -597,26 +628,28 @@ my_func2() {
 
   ...
 }
-函数位置
+```
+
+### 函数位置
 #### Tip
 
 将文件中所有的函数一起放在常量下面。不要在函数之间隐藏可执行代码。
 
 如果你有函数，请将他们一起放在文件头部。只有includes， set 声明和常量设置可能在函数声明之前完成。不要在函数之间隐藏可执行代码。如果那样做，会使得代码在调试时难以跟踪并出现意想不到的讨厌结果。
 
-主函数main
+### 主函数main
 #### Tip
 
 对于包含至少一个其他函数的足够长的脚本，需要称为 main 的函数。
 
 为了方便查找程序的开始，将主程序放入一个称为 main 的函数，作为最下面的函数。这使其和代码库的其余部分保持一致性，同时允许你定义更多变量为局部变量（如果主代码不是一个函数就不能这么做）。文件中最后的非注释行应该是对 main 函数的调用。
-
+```shell
 main "$@"
+```
 显然，对于仅仅是线性流的短脚本， main 是矫枉过正，因此是不需要的。
 
 
-调用命令
-检查返回值
+### 调用命令 检查返回值
 #### Tip
 
 总是检查返回值，并给出信息返回值。
@@ -624,7 +657,7 @@ main "$@"
 对于非管道命令，使用 $? 或直接通过一个 if 语句来检查以保持其简洁。
 
 例如：
-
+```shell
 if ! mv "${file_list}" "${dest_dir}/" ; then
   echo "Unable to move ${file_list} to ${dest_dir}" >&2
   exit "${E_BAD_MOVE}"
@@ -636,8 +669,10 @@ if [[ "$?" -ne 0 ]]; then
   echo "Unable to move ${file_list} to ${dest_dir}" >&2
   exit "${E_BAD_MOVE}"
 fi
+```
 Bash也有 PIPESTATUS 变量，允许检查从管道所有部分返回的代码。如果仅仅需要检查整个管道是成功还是失败，以下的方法是可以接受的：
 
+```shell
 tar -cf - ./* | ( cd "${dir}" && tar -xf - )
 if [[ "${PIPESTATUS[0]}" -ne 0 || "${PIPESTATUS[1]}" -ne 0 ]]; then
   echo "Unable to tar files to ${dir}" >&2
@@ -652,7 +687,9 @@ fi
 if [[ "${return_codes[1]}" -ne 0 ]]; then
   do_something_else
 fi
-内建命令和外部命令
+```
+
+### 内建命令和外部命令
 #### Tip
 
 可以在调用shell内建命令和调用另外的程序之间选择，请选择内建命令。
@@ -661,6 +698,7 @@ fi
 
 例如：
 
+```shell
 # Prefer this:
 addition=$((${X} + ${Y}))
 substitution="${string/#foo/bar}"
@@ -668,6 +706,7 @@ substitution="${string/#foo/bar}"
 # Instead of this:
 addition="$(expr ${X} + ${Y})"
 substitution="$(echo "${string}" | sed -e 's/^foo/bar/')"
+```
 
-结论
+### 结论
 使用常识并保持一致。
