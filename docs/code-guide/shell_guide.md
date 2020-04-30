@@ -97,9 +97,11 @@ fi
 #!/bin/bash
 #
 # Perform hot backups of Oracle databases.
-
+```
+```shell
 export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'
-
+```
+```shell
 #######################################
 # Cleanup files from the backup dir
 # Globals:
@@ -110,11 +112,12 @@ export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'
 # Returns:
 #   None
 #######################################
+```
+```shell
 cleanup() {
   ...
 }
 ```
-
 
 ### 实现部分的注释
 #### Tip
