@@ -27,7 +27,7 @@
 - [阿里编码规范](https://jsong.zsihuo.com/#/code-guide/ali_code_guide)
 - [HTML规范](https://jsong.zsihuo.com/#/code-guide/html_guide)
 - [JavaScript规范](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
-- [JavaScript规范](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
+- [Python规范](https://jsong.zsihuo.com/#/code-guide/python_guide)
 - [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
 
 #### 代码自动检测插件
