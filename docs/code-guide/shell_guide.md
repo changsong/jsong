@@ -1,6 +1,7 @@
-背景
+### 背景
 使用哪一种Shell
-Tip
+
+#### Tip
 
 Bash是唯一被允许执行的shell脚本语言。
 
@@ -11,7 +12,7 @@ Bash是唯一被允许执行的shell脚本语言。
 无论你是为什么而编码，对此唯一例外的是当你被迫时可以不这么做的。其中一个例子是Solaris SVR4包，编写任何脚本都需要用纯Bourne shell。
 
 什么时候使用Shell
-Tip
+#### Tip
 
 Shell应该仅仅被用于小功能或者简单的包装脚本。
 
@@ -19,42 +20,42 @@ Shell应该仅仅被用于小功能或者简单的包装脚本。
 
 以下是一些准则：
 
-如果你主要是在调用其他的工具并且做一些相对很小数据量的操作，那么使用shell来完成任务是一种可接受的选择。
-如果你在乎性能，那么请选择其他工具，而不是使用shell。
-如果你发现你需要使用数据而不是变量赋值（如 ${PHPESTATUS} ），那么你应该使用Python脚本。
-如果你将要编写的脚本会超过100行，那么你可能应该使用Python来编写，而不是Shell。请记住，当脚本行数增加，尽早使用另外一种语言重写你的脚本，以避免之后花更多的时间来重写。
+- 如果你主要是在调用其他的工具并且做一些相对很小数据量的操作，那么使用shell来完成任务是一种可接受的选择。
+- 如果你在乎性能，那么请选择其他工具，而不是使用shell。
+- 如果你发现你需要使用数据而不是变量赋值（如 ${PHPESTATUS} ），那么你应该使用Python脚本。
+- 如果你将要编写的脚本会超过100行，那么你可能应该使用Python来编写，而不是Shell。请记住，当脚本行数增加，尽早使用另外一种语言重写你的脚本，以避免之后花更多的时间来重写。
 
 
-Shell文件和解释器调用
-文件扩展名
-Tip
+### Shell文件和解释器调用
+
+#### 文件扩展名
+#### Tip
 
 可执行文件应该没有扩展名（强烈建议）或者使用.sh扩展名。库文件必须使用.sh作为扩展名，而且应该是不可执行的。
 
 当执行一个程序时，并不需要知道它是用什么语言编写的。而且shell脚本也不要求有扩展名。所以我们更喜欢可执行文件没有扩展名。
 
-然而，对于库文件，知道其用什么语言编写的是很重要的，有时候会需要使用不同语言编写的相似的库文件。使用.sh这样特定语言后缀作为扩展名，就使得用不同语言编写的具有相同功能的库文件可以采用一样的名称。
+然而，对于库文件，知道其用什么语言编写的是很重要的，有时候会需要使用不同语言编写的相似的库文件。使用.sh这样特定语言后缀作为扩展名，
+就使得用不同语言编写的具有相同功能的库文件可以采用一样的名称。
 
-SUID / SGID
-Tip
+#### SUID / SGID
+#### Tip
 
 SUID(Set User ID)和SGID(Set Group ID)在shell脚本中是被禁止的。
 
-shell存在太多的安全问题，以致于如果允许SUID/SGID会使得shell几乎不可能足够安全。虽然bash使得运行SUID非常困难，但在某些平台上仍然有可能运行，这就是为什么我们明确提出要禁止它。
+shell存在太多的安全问题，以致于如果允许SUID/SGID会使得shell几乎不可能足够安全。虽然bash使得运行SUID非常困难，
+但在某些平台上仍然有可能运行，这就是为什么我们明确提出要禁止它。如果你需要较高权限的访问请使用 sudo 。
 
-如果你需要较高权限的访问请使用 sudo 。
-
-
-环境
+#### 环境
 STDOUT vs STDERR
-Tip
+#### Tip
 
 所有的错误信息都应该被导向STDERR。
 
 这使得从实际问题中分离出正常状态变得更容易。
 
 推荐使用类似如下函数，将错误信息和其他状态信息一起打印出来。
-
+```shell
 err() {
     echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')]: $@" >&2
 }
@@ -63,35 +64,36 @@ if ! do_something; then
     err "Unable to do_something"
     exit "${E_DID_NOTHING}"
 fi
+```
 
-注释
-文件头
-Tip
+### 注释 文件头
+#### Tip
 
 每个文件的开头是其文件内容的描述。
 
 每个文件必须包含一个顶层注释，对其内容进行简要概述。版权声明和作者信息是可选的。
 
 例如：
-
+```shell
 #!/bin/bash
 #
 # Perform hot backups of Oracle databases.
-功能注释
-Tip
+```
+
+### 功能注释
+#### Tip
 
 任何不是既明显又短的函数都必须被注释。任何库函数无论其长短和复杂性都必须被注释。
 
 其他人通过阅读注释（和帮助信息，如果有的话）就能够学会如何使用你的程序或库函数，而不需要阅读代码。
 
 所有的函数注释应该包含：
-
-函数的描述
-全局变量的使用和修改
-使用的参数说明
-返回值，而不是上一条命令运行后默认的退出状态
+  - 函数的描述
+  - 全局变量的使用和修改
+  - 使用的参数说明
+  - 返回值，而不是上一条命令运行后默认的退出状态
 例如：
-
+```shell
 #!/bin/bash
 #
 # Perform hot backups of Oracle databases.
@@ -111,15 +113,18 @@ export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'
 cleanup() {
   ...
 }
-实现部分的注释
-Tip
+```
+
+
+### 实现部分的注释
+#### Tip
 
 注释你代码中含有技巧、不明显、有趣的或者重要的部分。
 
 这部分遵循谷歌代码注释的通用做法。不要注释所有代码。如果有一个复杂的算法或者你正在做一些与众不同的，放一个简单的注释。
 
-TODO注释
-Tip
+### TODO注释
+#### Tip
 
 使用TODO注释临时的、短期解决方案的、或者足够好但不够完美的代码。
 
@@ -128,25 +133,26 @@ Tip
 TODOs应该包含全部大写的字符串TODO，接着是括号中你的用户名。冒号是可选的。最好在TODO条目之后加上 bug或者ticket 的序号。
 
 例如：
-
+```shell
 # TODO(mrmonkey): Handle the unlikely edge cases (bug ####)
+```
 
-
-格式
-缩进
-Tip
+### 格式缩进
+#### Tip
 
 缩进两个空格，没有制表符。
 
 在代码块之间请使用空行以提升可读性。缩进为两个空格。无论你做什么，请不要使用制表符。对于已有文件，保持已有的缩进格式。
 
-行的长度和长字符串
-Tip
+### 行的长度和长字符串
+#### Tip
 
 行的最大长度为80个字符。
 
-如果你必须写长度超过80个字符的字符串，如果可能的话，尽量使用here document或者嵌入的换行符。长度超过80个字符的文字串且不能被合理地分割，这是正常的。但强烈建议找到一个方法使其变短。
+如果你必须写长度超过80个字符的字符串，如果可能的话，尽量使用here document或者嵌入的换行符。
+长度超过80个字符的文字串且不能被合理地分割，这是正常的。但强烈建议找到一个方法使其变短。
 
+```shell
 # DO use 'here document's
 cat <<END;
 I am an exceptionally long
@@ -156,15 +162,18 @@ END
 # Embedded newlines are ok too
 long_string="I am an exceptionally
   long string."
-管道
-Tip
+
+```
+
+### 管道
+#### Tip
 
 如果一行容不下整个管道操作，那么请将整个管道操作分割成每行一个管段。
 
 如果一行容得下整个管道操作，那么请将整个管道操作写在同一行。
 
 否则，应该将整个管道操作分割成每行一个管段，管道操作的下一部分应该将管道符放在新行并且缩进2个空格。这适用于使用管道符’|’的合并命令链以及使用’||’和’&&’的逻辑运算链。
-
+```shell
 # All fits on one line
 command1 | command2
 
@@ -174,7 +183,9 @@ command1 \
   | command3 \
   | command4
 循环
-Tip
+```
+
+#### Tip
 
 请将 ; do , ; then 和 while , for , if 放在同一行。
 
@@ -197,7 +208,7 @@ for dir in ${dirs_to_cleanup}; do
   fi
 done
 case语句
-Tip
+#### Tip
 
 通过2个空格缩进可选项。
 在同一行可选项的模式右圆括号之后和结束符 ;; 之前各需要一个空格。
@@ -233,7 +244,7 @@ while getopts 'abf:v' flag; do
   esac
 done
 变量扩展
-Tip
+#### Tip
 
 按优先级顺序：保持跟你所发现的一致；引用你的变量；推荐用 ${var} 而不是 $var ，详细解释如下。
 
@@ -275,7 +286,7 @@ echo a=$avar "b=$bvar" "PID=${$}" "${1}"
 set -- a b c
 echo "$10$20$30"
 引用
-Tip
+#### Tip
 
 除非需要小心不带引用的扩展，否则总是引用包含变量、命令替换符、空格或shell元字符的字符串。
 推荐引用是单词的字符串（而不是命令选项或者路径名）。
@@ -338,7 +349,7 @@ set -- 1 "2 two" "3 three tres"; echo $# ; set -- "$@"; echo "$#, $@")
 
 特性及错误
 命令替换
-Tip
+#### Tip
 
 使用 $(command) 而不是反引号。
 
@@ -352,7 +363,7 @@ var="$(command "$(command1)")"
 # This is not:
 var="`command \`command1\``"
 test，[和[[
-Tip
+#### Tip
 
 推荐使用 [[ ... ]] ，而不是 [ , test , 和 /usr/bin/ [ 。
 
@@ -378,7 +389,7 @@ if [ "filename" == f* ]; then
   echo "Match"
 fi
 测试字符串
-Tip
+#### Tip
 
 尽可能使用引用，而不是过滤字符串。
 
@@ -417,7 +428,7 @@ if [[ "${my_var}" ]]; then
   do_something
 fi
 文件名的通配符扩展
-Tip
+#### Tip
 
 当进行文件名的通配符扩展时，请使用明确的路径。
 
@@ -438,7 +449,7 @@ removed `./-r'
 rm: cannot remove `./somedir': Is a directory
 removed `./somefile'
 Eval
-Tip
+#### Tip
 
 应该避免使用eval。
 
@@ -451,7 +462,7 @@ eval $(set_my_variables)
 # What happens if one of the returned values has a space in it?
 variable="$(eval some_function)"
 管道导向while循环
-Tip
+#### Tip
 
 请使用过程替换或者for循环，而不是管道导向while循环。在while循环中被修改的变量是不能传递给父shell的，因为循环命令是在一个子shell中运行的。
 
@@ -496,7 +507,7 @@ done
 
 命名约定
 函数名
-Tip
+#### Tip
 
 使用小写字母，并用下划线分隔单词。使用双冒号 :: 分隔库。函数名之后必须有圆括号。关键词 function 是可选的，但必须在一个项目中保持一致。
 
@@ -514,7 +525,7 @@ mypackage::my_func() {
 当函数名后存在 () 时，关键词 function 是多余的。但是其促进了函数的快速辨识。
 
 变量名
-Tip
+#### Tip
 
 如函数名。
 
@@ -524,7 +535,7 @@ for zone in ${zones}; do
   something_with "${zone}"
 done
 常量和环境变量名
-Tip
+#### Tip
 
 全部大写，用下划线分隔，声明在文件的顶部。
 
@@ -545,14 +556,14 @@ while getopts 'v' flag; do
 done
 readonly VERBOSE
 源文件名
-Tip
+#### Tip
 
 小写，如果需要的话使用下划线分隔单词。
 
 这是为了和在Google中的其他代码风格保持一致： maketemplate 或者 make_template ，而不是 make-template 。
 
 只读变量
-Tip
+#### Tip
 
 使用 readonly 或者 declare -r 来确保变量只读。
 
@@ -565,7 +576,7 @@ else
   readonly zip_version
 fi
 使用本地变量
-Tip
+#### Tip
 
 使用 local 声明特定功能的变量。声明和赋值应该在不同行。
 
@@ -587,14 +598,14 @@ my_func2() {
   ...
 }
 函数位置
-Tip
+#### Tip
 
 将文件中所有的函数一起放在常量下面。不要在函数之间隐藏可执行代码。
 
 如果你有函数，请将他们一起放在文件头部。只有includes， set 声明和常量设置可能在函数声明之前完成。不要在函数之间隐藏可执行代码。如果那样做，会使得代码在调试时难以跟踪并出现意想不到的讨厌结果。
 
 主函数main
-Tip
+#### Tip
 
 对于包含至少一个其他函数的足够长的脚本，需要称为 main 的函数。
 
@@ -606,7 +617,7 @@ main "$@"
 
 调用命令
 检查返回值
-Tip
+#### Tip
 
 总是检查返回值，并给出信息返回值。
 
@@ -642,7 +653,7 @@ if [[ "${return_codes[1]}" -ne 0 ]]; then
   do_something_else
 fi
 内建命令和外部命令
-Tip
+#### Tip
 
 可以在调用shell内建命令和调用另外的程序之间选择，请选择内建命令。
 

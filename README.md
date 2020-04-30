@@ -38,7 +38,6 @@
 - [系统优化怎么做-SQL优化](https://zhuanlan.zhihu.com/p/39736653)
 - [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
 
-
 ### 常用集合
 - [ArrayList/Vector](https://jsong.zsihuo.com/#/collections/ArrayList)
 - [LinkedList](https://jsong.zsihuo.com/#/collections/LinkedList)
@@ -72,7 +71,7 @@
 
 ### 分布式相关
 - [分布式限流](https://jsong.zsihuo.com/#/distributed/Distributed-Limit)
-- [基于 Redis 的分布式锁](hhttps://jsong.zsihuo.com/#/distributed/distributed-lock-redis/)
+- [基于 Redis 的分布式锁](https://jsong.zsihuo.com/#/distributed/distributed-lock-redis/)
 - [分布式缓存设计](https://jsong.zsihuo.com/#/cache/Cache-design)
 - [分布式 ID 生成器](https://jsong.zsihuo.com/#/cache/ID-generator)
 
@@ -81,8 +80,8 @@
 - [Spring AOP 的实现原理](https://github.com/changsong/jsong/blob/master/md/SpringAOP) 
 - [Guava 源码分析（Cache 原理）](https://jsong.top/2018/06/13/guava/guava-cache/)
 - [轻量级 HTTP 框架](https://github.com/jsong/cicada)
-- [Kafka produce 源码分析](https://github.com/changsong/jsong/blob/master/md/kafka/kafka-product)
-- [Kafka 消费实践](https://github.com/changsong/jsong/blob/master/docs/frame/kafka-consumer)
+- [Kafka produce 源码分析](https://jsong.zsihuo.com/#/kafka/kafka-product)
+- [Kafka 消费实践](https://jsong.zsihuo.com/#/frame/kafka-consumer)
 
 ### 架构设计
 - [秒杀系统设计](https://github.com/changsong/jsong/blob/master/md/Spike)

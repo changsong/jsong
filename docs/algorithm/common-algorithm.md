@@ -1,6 +1,8 @@
 
 # 红包算法
 
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/red/RedPacket.java)
+
 ```java
 public class RedPacket {
 
@@ -137,8 +139,9 @@ public class RedPacket {
 }
 ```
 
-
 # 二叉树层序遍历
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/BinaryNode.java#L76-L101)
 
 ```java
 public class BinaryNode {
@@ -251,8 +254,8 @@ public class BinaryNodeTest {
 ```
 
 
-
 # 是否为快乐数字
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/HappyNum.java#L38-L55)
 
 ```java
 /**
@@ -333,6 +336,8 @@ public class HappyNumTest {
 ```
 
 # 链表是否有环
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/LinkLoop.java#L32-L59)
 
 ```java
 /**
@@ -454,6 +459,8 @@ public class LinkLoopTest {
 
 # 从一个数组中返回两个值相加等于目标值的下标
 
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/TwoSum.java#L38-L59)
+
 ```java
 /**
  * Function:{1,3,5,7} target=8 返回{2,3}
@@ -533,6 +540,8 @@ public class TwoSumTest {
 ```
 
 # 三种方式反向打印单向链表
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/ReverseNode.java)
 
 ```java
 /**
@@ -703,6 +712,8 @@ public class ReverseNodeTest {
 
 # 合并两个排好序的链表
 
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/MergeTwoSortedLists.java)
+
 ```java
 /**
  * Function: 合并两个排好序的链表
@@ -871,6 +882,9 @@ public class MergeTwoSortedListsTest {
 ```
 
 # 两个栈实现队列
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/TwoStackQueue.java)
+
 ```java
 /**
  * Function: 两个栈实现队列
@@ -962,6 +976,10 @@ public class TwoStackQueueTest {
 }
 ```
 # 链表排序
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/LinkedListMergeSort.java)
+
+
 ```java
 /**
  * 链表排序, 建议使用归并排序，
@@ -1104,6 +1122,10 @@ public class LinkedListMergeSort {
 }
 ```
 # 数组右移 k 次
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/ArrayKShift.java)
+
+
 ```java
 /**
  * 数组右移K次, 原数组<code> [1, 2, 3, 4, 5, 6, 7]</code> 右移3次后结果为 <code>[5,6,7,1,2,3,4]</code>
@@ -1179,6 +1201,8 @@ public class ArrayKShift {
 ```
 
 # 交替打印奇偶数
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/actual/TwoThread.java)
 
 ## lock 版
 
@@ -1286,6 +1310,9 @@ public class TwoThread {
 ```
 
 ## 等待通知版
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/actual/TwoThread.java) TODO
+
 ```java
 /**
  * Function:两个线程交替执行打印 1~100
@@ -1389,6 +1416,9 @@ public class TwoThreadWaitNotify {
 ```
 
 ## 非阻塞版
+
+- [代码](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/actual/TwoThread.java) TODO
+
 ```java
 /**
  * Function: 两个线程交替执行打印 1~100
