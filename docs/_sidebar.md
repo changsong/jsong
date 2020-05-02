@@ -13,7 +13,7 @@
    - [Python规范](code-guide/python_guide.md)
    - [Shell规范](code-guide/shell_guide.md)
    - [json规范](code-guide/json_guide.md)
-   - [object-c规范](https://zh-google-styleguide.readthedocs.io/en/latest/contents)
+   - [object-c规范](code-guide/object-c_guide.md)
    
 - 代码自动检测插件
    - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
