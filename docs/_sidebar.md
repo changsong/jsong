@@ -2,6 +2,9 @@
 
 - 笔试题
    - [Amazon](interview/amazon.md)
+   
+- 面试题
+   - [Java基础](interview/java_base.md)
 
 - 基础知识
    - [面向对象特性](oo-design/oo-design.md)
