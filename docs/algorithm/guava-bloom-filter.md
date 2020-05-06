@@ -384,6 +384,4 @@ bitsChanged |= bits.set((combinedHash & Long.MAX_VALUE) % bitSize);
 本问的示例代码参考这里：
 [https://github.com/changsong/jsong](https://github.com/changsong/jsong/blob/master/src/test/java/com/jsong/algorithm/BloomFiltersTest.java)
 
-
-
-
+%[{ contactme.md }]%

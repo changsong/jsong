@@ -1151,3 +1151,5 @@ report form的URI，服务用它来收集错误状态的数据。该URL会预先
 除了特别[说明](http://code.google.com/policies.html)，该页面的内容均由[共同创作协议](http://creativecommons.org/licenses/by/3.0/)(CC BY 3.0)授权许可，示例代码均由[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)许可证授权许可）
 
 －EOF-
+
+%[{ contactme.md }]%

@@ -847,5 +847,4 @@ LinkedHashMap 内部也有维护一个双向队列，在初始化时也会给定
 
 当然业界使用较多的还有 [guava](https://github.com/google/guava) 的实现，并且它还支持多种过期策略。
 
-
-
+%[{ contactme.md }]%

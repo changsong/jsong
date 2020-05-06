@@ -136,3 +136,6 @@ wait()是Object类的方法，调用对象的 wait() 方法导致当前线程放
 - 线程执行sleep()方法后转入阻塞（blocked）状态，而执行yield()方法后转入就绪（ready）状态；
 - sleep()方法声明抛出InterruptedException，而yield()方法没有声明任何异常；
 - sleep()方法比 yield() 方法（跟操作系统CPU调度相关）具有更好的可移植性。
+
+
+%[{ contactme.md }]%

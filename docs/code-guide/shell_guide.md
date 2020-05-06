@@ -713,3 +713,5 @@ substitution="$(echo "${string}" | sed -e 's/^foo/bar/')"
 
 ### 结论
 使用常识并保持一致。
+
+%[{ contactme.md }]%
