@@ -884,7 +884,8 @@ array.release;                           // not a property
 错误的做法：
 
 @interface MyClass : NSObject { } // Does a lot of stuff - (void)fooBarBam; @end
-自动 synthesize 实例变量
+
+#### 自动 synthesize 实例变量
 > Tip
 
 只运行在 iOS 下的代码，优先考虑使用自动 synthesize 实例变量。
@@ -892,7 +893,7 @@ array.release;                           // not a property
 synthesize 实例变量时，使用 @synthesize var = var_; 防止原本想调用 self.var = blah; 却不慎写成了 var = blah;。
 
 不要synthesize CFType的属性 CFType应该永远使用@dynamic实现指示符。 尽管CFType不能使用retain属性特性，开发者必须自己处理retain和release。很少有情况你需要仅仅对它进行赋值，因此最好显示地实现getter和setter，并作出注释说明。 列出所有的实现指示符 尽管@dynamic是默认的，显示列出它以及其它的实现指示符会提高可读性，代码阅读者可以一眼就知道类的每个属性是如何实现的。
-
+```c++
 // Header file
 @interface Foo : NSObject
 // A guy walks into a bar.
@@ -908,22 +909,19 @@ synthesize 实例变量时，使用 @synthesize var = var_; 防止原本想调�
 @synthesize bar = bar_;
 @synthesize baz = baz_;
 @end
+```
 
-Cocoa 模式
-委托模式
-> Tip
-
-委托对象不应该被 retain
+#### Cocoa 模式 委托模式
+> Tip 委托对象不应该被 retain
 
 实现委托模式的类应：
 
 拥有一个名为 delegate_ 的实例变量来引用委托。
 因此，访问器方法应该命名为 delegate 和 setDelegate:。
 delegate_ 对象不应该被 retain。
-模型/视图/控制器（MVC）
-> Tip
 
-分离模型与视图。分离控制器与视图、模型。回调 API 使用 @protocol。
+#### 模型/视图/控制器（MVC）
+> Tip 分离模型与视图。分离控制器与视图、模型。回调 API 使用 @protocol。
 
 分离模型与视图：不要假设模型或者数据源的表示方法。保持数据源与表示层之间的接口抽象。视图不需要了解模型的逻辑（主要的规则是问问你自己，对于数据源的一个实例，有没有可能有多种不同状态的表示方法）。
 分离控制器与模型、视图：不要把所有的 “业务逻辑” 放进跟视图有关的类中。这使代码非常难以复用。使用控制器类来处理这些代码，但保证控制器不需要了解太多表示层的逻辑。

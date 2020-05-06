@@ -14,16 +14,7 @@
    - [Shell规范](code-guide/shell_guide.md)
    - [json规范](code-guide/json_guide.md)
    - [object-c规范](code-guide/object-c_guide.md)
-   
-- 代码自动检测插件
-   - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-   - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-   - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
-   
-- 代码优化
-   - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-   - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-   - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+   - [插件](code-guide/plugs_guide.md)
 
 - 服务器
    - [有哪些服务器性能查看命令](server/command.md)
