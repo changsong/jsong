@@ -5,6 +5,9 @@
    
 - 面试题
    - [Java基础](interview/java_base.md)
+   - [操作系统](interview/os.md)
+   - [数据库](interview/database.md)
+   - [SQL](interview/sql.md)
 
 - 基础知识
    - [面向对象特性](oo-design/oo-design.md)
