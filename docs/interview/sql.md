@@ -152,7 +152,8 @@ GROUP BY class;
 > 解析：写一个子查询，从score表中得到以学号分组的学生各科平均分。命名为aaa，将其与学生表内联结。再以class分组，得到以class分组的各班学生的平均分，最后通过case语句，sum聚合函数得到平均分>80分的计数，和所占各班总人数比例。case语句也可以用if语句来代替
 
 ### 滴滴面试题
-table1（id：自增id，money：费用）问题：按id顺序累加money，取出累计值与1000相差最小差值的id。
+
+1. table1（id：自增id，money：费用）问题：按id顺序累加money，取出累计值与1000相差最小差值的id。
 
 ```SQL
 select id,
@@ -169,9 +170,7 @@ sum(money)over(ORDER BY id)as x
 from table1)as aaa
 ```
 
-### 滴滴面试题
-
-Employee 表包含所有员工信息，每个员工有其对应的 Id, Name,Salary 和 DepartmentId。
+2. Employee 表包含所有员工信息，每个员工有其对应的 Id, Name,Salary 和 DepartmentId。
 
 |  Id   | Name  | Salary  | DepartmentId  |
 |  ----  | ----  | ----  | ----  |
@@ -187,7 +186,7 @@ Department 表包含公司所有部门的信息。
 | 1 | IT |
 | 2 | Sales |
 
-编写一个 SQL 查询，找出每个部门工资第二高的员工。
+3. 编写一个 SQL 查询，找出每个部门工资第二高的员工。
  ```SQL
     select Departmentid,Name,Salary,rn
     from(select *,
