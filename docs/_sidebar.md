@@ -90,8 +90,9 @@
   - [设计一个百万级的消息推送系统](architecture-design/million-sms-push.md)
 
 - 数据库
-
-  - [MySQL 索引原理](db/MySQL-Index.md)
+  - [MySQL 索引](db/index.md)
+  - [MySQL 事务](db/transaction.md)
+  - [MySQL 互联网项目索引使用](db/MySQL-Index.md)
   - [SQL 优化](db/SQL-optimization.md)
   - [数据库水平垂直拆分](db/DB-split.md)
   - [一次分表踩坑实践的探讨](db/sharding-db.md)
