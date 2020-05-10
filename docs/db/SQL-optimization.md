@@ -84,3 +84,5 @@ select name from user where telno='18722222222'
 ## 如果需要进行 join 的字段两表的字段类型要相同
 
 不然也不会命中索引。
+
+%[{ contactme.md }]%
