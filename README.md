@@ -17,14 +17,14 @@
 
 #### 相关导航
 ### 笔试题
-- [Amazon](https://jsong.zsihuo.com/#/interview/amazon)
+- [Amazon](https://www.muzjia.com/#/interview/amazon)
 
 ### 编码规范
-- [阿里编码规范](https://jsong.zsihuo.com/#/code-guide/ali_code_guide)
-- [HTML规范](https://jsong.zsihuo.com/#/code-guide/html_guide)
-- [JavaScript规范](https://jsong.zsihuo.com/#/code-guide/javascript_guide)
-- [Python规范](https://jsong.zsihuo.com/#/code-guide/python_guide)
-- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://jsong.zsihuo.com/#/code-guide/OOM-analysis)
+- [阿里编码规范](https://www.muzjia.com/#/code-guide/ali_code_guide)
+- [HTML规范](https://www.muzjia.com/#/code-guide/html_guide)
+- [JavaScript规范](https://www.muzjia.com/#/code-guide/javascript_guide)
+- [Python规范](https://www.muzjia.com/#/code-guide/python_guide)
+- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://www.muzjia.com/#/code-guide/OOM-analysis)
 
 #### 代码自动检测插件
 - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
@@ -39,49 +39,49 @@
 - [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
 
 ### 常用集合
-- [ArrayList/Vector](https://jsong.zsihuo.com/#/collections/ArrayList)
-- [LinkedList](https://jsong.zsihuo.com/#/collections/LinkedList)
-- [HashMap](https://jsong.zsihuo.com/#/collections/HashMap)
-- [HashSet](https://jsong.zsihuo.com/#/collections/HashSet)
-- [LinkedHashMap](https://jsong.zsihuo.com/#/collections/LinkedHashMap)
+- [ArrayList/Vector](https://www.muzjia.com/#/collections/ArrayList)
+- [LinkedList](https://www.muzjia.com/#/collections/LinkedList)
+- [HashMap](https://www.muzjia.com/#/collections/HashMap)
+- [HashSet](https://www.muzjia.com/#/collections/HashSet)
+- [LinkedHashMap](https://www.muzjia.com/#/collections/LinkedHashMap)
 
 ### Java 多线程
-- [多线程中的常见问题](https://jsong.zsihuo.com/#/thread/Thread-common-problem)
-- [synchronized 关键字原理](https://jsong.zsihuo.com/#/thread/Synchronize)
-- [多线程的三大核心](https://jsong.zsihuo.com/#/thread/Threadcore)
-- [对锁的一些认知](https://jsong.zsihuo.com/#/thread/Java-lock)
-- [ReentrantLock 实现原理 ](https://jsong.zsihuo.com/#/thread/ReentrantLock)
-- [ConcurrentHashMap 的实现原理](https://jsong.zsihuo.com/#/thread/ConcurrentHashMap)
-- [如何优雅的使用和理解线程池](https://jsong.zsihuo.com/#/thread/ThreadPoolExecutor)
-- [深入理解线程通信](https://jsong.zsihuo.com/#/thread/thread-communication)
-- [一个线程罢工的诡异事件](https://jsong.zsihuo.com/#/thread/thread-gone)
-- [线程池中你不容错过的一些细节](https://jsong.zsihuo.com/#/thread/thread-gone2)
-- [『并发包入坑指北』之阻塞队列](https://jsong.zsihuo.com/#/thread/ArrayBlockingQueue)
+- [多线程中的常见问题](https://www.muzjia.com/#/thread/Thread-common-problem)
+- [synchronized 关键字原理](https://www.muzjia.com/#/thread/Synchronize)
+- [多线程的三大核心](https://www.muzjia.com/#/thread/Threadcore)
+- [对锁的一些认知](https://www.muzjia.com/#/thread/Java-lock)
+- [ReentrantLock 实现原理 ](https://www.muzjia.com/#/thread/ReentrantLock)
+- [ConcurrentHashMap 的实现原理](https://www.muzjia.com/#/thread/ConcurrentHashMap)
+- [如何优雅的使用和理解线程池](https://www.muzjia.com/#/thread/ThreadPoolExecutor)
+- [深入理解线程通信](https://www.muzjia.com/#/thread/thread-communication)
+- [一个线程罢工的诡异事件](https://www.muzjia.com/#/thread/thread-gone)
+- [线程池中你不容错过的一些细节](https://www.muzjia.com/#/thread/thread-gone2)
+- [『并发包入坑指北』之阻塞队列](https://www.muzjia.com/#/thread/ArrayBlockingQueue)
 
 ### JVM
-- [Java 运行时内存划分](https://jsong.zsihuo.com/#/jvm/MemoryAllocation)
-- [类加载机制](https://jsong.zsihuo.com/#/jvm/ClassLoad)
-- [OOM 分析](https://jsong.zsihuo.com/#/jvm/OOM-analysis)
-- [垃圾回收](https://jsong.zsihuo.com/#/jvm/GarbageCollection)
-- [对象的创建与内存分配](https://jsong.zsihuo.com/#/jvm/newObject)
-- [你应该知道的 volatile 关键字](https://jsong.zsihuo.com/#/jvm/volatile)
-- [一次内存溢出排查优化实战](https://jsong.zsihuo.com/#/jvm/OOM-Disruptor/)
-- [一次 HashSet 所引起的并发问题](https://jsong.zsihuo.com/#/jvm/JVM-concurrent-HashSet-problem)
-- [一次生产 CPU 100% 排查优化实践](https://jsong.zsihuo.com/#/jvm/cpu-percent-100)
+- [Java 运行时内存划分](https://www.muzjia.com/#/jvm/MemoryAllocation)
+- [类加载机制](https://www.muzjia.com/#/jvm/ClassLoad)
+- [OOM 分析](https://www.muzjia.com/#/jvm/OOM-analysis)
+- [垃圾回收](https://www.muzjia.com/#/jvm/GarbageCollection)
+- [对象的创建与内存分配](https://www.muzjia.com/#/jvm/newObject)
+- [你应该知道的 volatile 关键字](https://www.muzjia.com/#/jvm/volatile)
+- [一次内存溢出排查优化实战](https://www.muzjia.com/#/jvm/OOM-Disruptor/)
+- [一次 HashSet 所引起的并发问题](https://www.muzjia.com/#/jvm/JVM-concurrent-HashSet-problem)
+- [一次生产 CPU 100% 排查优化实践](https://www.muzjia.com/#/jvm/cpu-percent-100)
 
 ### 分布式相关
-- [分布式限流](https://jsong.zsihuo.com/#/distributed/Distributed-Limit)
-- [基于 Redis 的分布式锁](https://jsong.zsihuo.com/#/distributed/distributed-lock-redis/)
-- [分布式缓存设计](https://jsong.zsihuo.com/#/cache/Cache-design)
-- [分布式 ID 生成器](https://jsong.zsihuo.com/#/cache/ID-generator)
+- [分布式限流](https://www.muzjia.com/#/distributed/Distributed-Limit)
+- [基于 Redis 的分布式锁](https://www.muzjia.com/#/distributed/distributed-lock-redis/)
+- [分布式缓存设计](https://www.muzjia.com/#/cache/Cache-design)
+- [分布式 ID 生成器](https://www.muzjia.com/#/cache/ID-generator)
 
 ### 常用框架\第三方组件
 - [Spring Bean 生命周期](https://github.com/changsong/jsong/blob/master/md/spring/spring-bean-lifecycle)
 - [Spring AOP 的实现原理](https://github.com/changsong/jsong/blob/master/md/SpringAOP) 
 - [Guava 源码分析（Cache 原理）](https://jsong.top/2018/06/13/guava/guava-cache/)
 - [轻量级 HTTP 框架](https://github.com/jsong/cicada)
-- [Kafka produce 源码分析](https://jsong.zsihuo.com/#/kafka/kafka-product)
-- [Kafka 消费实践](https://jsong.zsihuo.com/#/frame/kafka-consumer)
+- [Kafka produce 源码分析](https://www.muzjia.com/#/kafka/kafka-product)
+- [Kafka 消费实践](https://www.muzjia.com/#/frame/kafka-consumer)
 
 ### 架构设计
 - [秒杀系统设计](https://github.com/changsong/jsong/blob/master/md/Spike)
