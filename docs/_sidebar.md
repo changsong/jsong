@@ -82,7 +82,6 @@
   - [Kafka produce 源码分析](frame/kafka-product.md)
   - [Kafka 消费实践](frame/kafka-consumer.md)
 
-
 - 架构设计
 
   - [秒杀系统设计](architecture-design/Spike.md)
@@ -92,6 +91,7 @@
 - 数据库
   - [MySQL 索引](db/index.md)
   - [MySQL 事务](db/transaction.md)
+  - [MySQL 存储过程](db/stored_procedure.md)
   - [MySQL 互联网项目索引使用](db/MySQL-Index.md)
   - [SQL 优化](db/SQL-optimization.md)
   - [数据库水平垂直拆分](db/DB-split.md)
