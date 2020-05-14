@@ -13,9 +13,9 @@
 
 
 ### 事务的语句
-　开始事物：BEGIN TRANSACTION
-　提交事物：COMMIT TRANSACTION
-　回滚事务：ROLLBACK TRANSACTION
+　- 开始事物：BEGIN TRANSACTION
+　- 提交事物：COMMIT TRANSACTION
+　- 回滚事务：ROLLBACK TRANSACTION
 
 显示事务被用begin transaction 与 end transaction 标识起来，其中的 update 与 delete 语句或者全部执行或者全部不执行
 begin transaction T1
