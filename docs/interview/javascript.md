@@ -103,7 +103,7 @@ F()  // 1
 ### 原型和继承
 #### js 创建对象的几种方式
 
-对象字面量的方法
+字面量创建
 ```javascript
 var obj={};
 ```
@@ -118,17 +118,21 @@ function Pel(){}
  }
 ```
 
-new一个内置对象
+new关键字创建
 ```javascript
 var obj=new Object();
 ```
+
 Object.create（）创建对象
 ```javascript
 var test = Object.create({x:1});
 ```
 
-#### 给大家留一道思考题，new Object() 、 Object.create()、{}，这三种方式创建对象有什么区别。
-???
+#### new Object() 、 Object.create()、{}，这三种方式创建对象有什么区别。
+
+- 字面量和new关键字创建的对象是Object的实例，原型指向Object.prototype，继承内置对象Object，只是字面量创建更高效一些，少了__proto__指向赋值和this。
+- Object.create(arg, pro)创建的对象的原型取决于arg，arg为null，新对象是空对象，没有原型，不继承任何对象；arg为指定对象，新对象的原型指向指定对象，继承指定对象
+
 
 ### JS 如何实现一个类
 #### 构造函数法
