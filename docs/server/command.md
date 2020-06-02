@@ -29,3 +29,4 @@ free = 第一行的free + buffers + cached (表示实际剩余的内存总数)
 #### strace
 
 #### perf top 
+

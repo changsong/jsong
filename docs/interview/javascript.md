@@ -234,4 +234,17 @@ class ColorPoint extends Point {
 }
 ```
 
+[由浅入深：彻底弄懂JS原型与继承](https://mp.weixin.qq.com/s?__biz=MzI5MjU0Mjk5MA==&mid=2247483768&idx=1&sn=4579b7bd22420d18009505a5a7454a9d&chksm=ec7e8e19db09070f8d529cb6a3f9bb425c20ac3bd4d936f4eb9e918facbe3d7e6eecdd719c4c&token=816776520&lang=zh_CN#rd
+)
+
+### new和this
+new 操作符具体干了什么？
+
+> 当我们new一个数据的时候，new操作符到底做了什么？
+1. 首先是创建实例对象{}
+2. this 变量引用该对象，同时还继承了构造函数的原型
+3. 其次属性和方法被加入到 this 引用的对象中
+4. 并且新创建的对象由 this 所引用，最后隐式的返回 this
+
+
 %[{ contactme.md }]%
