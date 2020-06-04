@@ -24,7 +24,7 @@
    - [插件](code-guide/plugs_guide.md)
     
 - 脚本
-  - [常见日志查看](shell/log.md)
+  - [日志查看](shell/log.md)
 
 - 服务器
    - [有哪些服务器性能查看命令](server/command.md)
