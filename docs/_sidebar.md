@@ -7,7 +7,7 @@
    - [腾讯](interview/tencent.md)
    - [美团](interview/meituan.md)
    
-- 面试题
+- 常见面试题
    - [Java基础](interview/java_base.md)
    - [JavaScript](interview/javascript.md)
    - [操作系统](interview/os.md)
