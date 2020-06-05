@@ -4,6 +4,8 @@
    - [百度](interview/baidu.md)
    - [阿里巴巴](interview/alibaba.md)
    - [亚马逊Amazon](interview/amazon.md)
+   - [腾讯](interview/tencent.md)
+   - [美团](interview/meituan.md)
    
 - 面试题
    - [Java基础](interview/java_base.md)
@@ -12,9 +14,10 @@
    - [数据库](interview/database.md)
    - [SQL](interview/sql.md)
    - [Spring](interview/spring.md)
-   - [Spring](interview/spring.md)
-   - [Spring](interview/spring.md)
-   - [Spring](interview/spring.md)
+
+
+   - 优秀简历样本
+   - [高级工程师](resume/good_dev_sample_1.md)
 
 - 基础知识
    - [面向对象特性](oo-design/oo-design.md)

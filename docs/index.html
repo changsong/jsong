@@ -12,19 +12,6 @@
 <body>
   <div id="app"></div>
   <script>
-     (function(){
-         var curUrl = window.location.href; 
-         console.log(curUrl);
-         $.ajax({
-            type: "POST",
-            url: 'https://data.zz.baidu.com/urls?site=https://www.muzjia.com&token=H3zXNsT8Knl79clb',
-            data: curUrl,
-            success: function(rtn){
-               console.log(rtn);
-            }
-        });
-    })();
-
       window.$docsify = {
         name: '木子家 - 程序员的大家庭',
         repo: 'https://github.com/changsong/jsong.git',
