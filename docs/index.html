@@ -16,8 +16,7 @@
          var curUrl = window.location.href; 
          console.log(curUrl);
          $.ajax({
-            async:false,
-            //type: "POST",
+            type: "POST",
             url: 'http://data.zz.baidu.com/urls?site=https://www.muzjia.com&token=H3zXNsT8Knl79clb',
             data: curUrl,
             success: function(rtn){
