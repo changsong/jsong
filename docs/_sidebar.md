@@ -15,8 +15,7 @@
    - [SQL](interview/sql.md)
    - [Spring](interview/spring.md)
 
-
-   - 优秀简历样本
+  优秀简历样本
    - [高级工程师](resume/good_dev_sample_1.md)
 
 - 基础知识
