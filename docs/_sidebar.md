@@ -17,6 +17,7 @@
 
   优秀简历样本
    - [高级工程师](resume/good_dev_sample_1.md)
+   - [架构师](resume/good_arch_sample_1.md)
 
 - 基础知识
    - [面向对象特性](oo-design/oo-design.md)
