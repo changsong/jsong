@@ -3,6 +3,7 @@
 
 # maven ignore
 target/
+node_modules/
 
 # eclipse ignore
 .settings/
