@@ -1,4 +1,4 @@
-#### 百度二面
+#### 百度实习生二面
 
 ##### Https及http的区别
 1. https协议需要到ca申请证书，一般免费证书较少，因而需要一定费用。
@@ -87,15 +87,73 @@ cookie为多个用户浏览器共享
 4. invalidate session
 
 ##### TCP和UDP的区别
+TCP和UDP是OSI模型中的运输层中的协bai议。TCP提供可靠的通信du传输，而UDP则常被用zhi于让广播和细节控制dao交给应用的通信传输。  
 
-1. 基于连接与无连接；
+TCP与UDP基本区别
+1. TCP基于连接,UDP基于无连接；
 2. 对系统资源的要求（TCP较多，UDP少）；
 3. UDP程序结构较简单；
 4. 流模式与数据报模式 ；
 5. TCP保证数据正确性，UDP可能丢包，TCP保证数据顺序，UDP不保证。
+6. TCP面向字节流，实际上是TCP把数据看成一连串无结构的字节流;  
+UDP是面向报文的，UDP没有拥塞控制，因此网络出现拥塞不会使源主机的发送速率降低（对实时应用很有用，如IP电话，实时视频会议等）
+7. 每一条TCP连接只能是点到点的;UDP支持一对一，一对多，多对一和多对多的交互通信。
+8. TCP首部开销20字节;UDP的首部开销小，只有8个字节。
+9. TCP的逻辑通信信道是全双工的可靠信道，UDP则是不可靠信道。
 
 ##### HTTPS如何确保安全性
 
+1. 基于对称加密方法对数据进行加密
+
+![Https链接](https://user-gold-cdn.xitu.io/2019/1/5/1681c23c27137dc6?w=886&h=467&f=png&s=101700)
+
+[建议阅读](https://www.cnblogs.com/kubidemanong/p/9390021.html)
+
 ##### 写一个二分查找代码
+```javascript
+    /*
+     *循环实现二分算法
+     */
+    public static int binSearch(int key, int[] array) {
+        int low = 0; //第一个下标
+        int high = array.length - 1;//最后一个下标
+        int middle = 0;
+        //防越界
+        if (key < array[low] || key > array[high] || low > high) {
+            return -1;
+        }
+        while (low <= high) {
+            middle = (low + high) / 2;
+            if (middle == key) {
+                return array[middle];
+            } else if (middle < key) {
+                low = middle + 1;
+            } else {
+                high = middle - 1;
+            }
+        }
+        return -1;
+    }
+
+    /*
+     *递归实现二分算法
+     */
+    public static int binSearch_2(int key,int[] array,int low,int high){
+        //防越界
+        if (key < array[low] || key > array[high] || low > high) {
+            return -1;
+        }
+        int middle = (low+high)/2;
+        if(array[middle]>key){
+            //大于关键字
+            return  binSearch_2(key,array,low,middle-1);
+        }else if(array[middle]<key){
+            //小于关键字
+            return binSearch_2(key,array,middle+1,high);
+        }else{
+            return array[middle];
+        }
+    }  
+```
 
 %[{ contactme.md }]%

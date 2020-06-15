@@ -3,9 +3,9 @@
 - 笔试及面试题
    - [百度](interview/baidu.md)
    - [阿里巴巴](interview/alibaba.md)
-   - [亚马逊Amazon](interview/amazon.md)
    - [腾讯](interview/tencent.md)
    - [美团](interview/meituan.md)
+   - [亚马逊Amazon](interview/amazon.md)
    
 - 常见面试题
    - [Java基础](interview/java_base.md)

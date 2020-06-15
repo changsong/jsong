@@ -29,7 +29,7 @@ public class KafkaTest {
         props.put("auto.commit.interval.ms", "1000");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
+        KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
         List<TopicPartition> tPartitions = new ArrayList<>();
         TopicPartition tPartition0 = new TopicPartition("data-push", 0);
         TopicPartition tPartition1 = new TopicPartition("data-push", 1);

@@ -246,5 +246,50 @@ new 操作符具体干了什么？
 3. 其次属性和方法被加入到 this 引用的对象中
 4. 并且新创建的对象由 this 所引用，最后隐式的返回 this
 
+new的模拟实现
+```javascript
+function objectFactory() {
+
+    var obj = new Object(),//从Object.prototype上克隆一个对象
+
+    Constructor = [].shift.call(arguments);//取得外部传入的构造器
+
+    var F=function(){};
+    F.prototype= Constructor.prototype;
+    obj=new F();//指向正确的原型
+
+    var ret = Constructor.apply(obj, arguments);//借用外部传入的构造器给obj设置属性
+
+    return typeof ret === 'object' ? ret : obj;//确保构造器总是返回一个对象
+
+};
+```
+
+this 对象的理解
+
+普通函数
+
+this 总是指向函数的直接调用者
+如果有 new 关键字，this 指向 new 出来的实例对象
+在事件中，this 指向触发这个事件的对象
+IE 下 attachEvent 中的 this 总是指向全局对象 Window
+箭头函数中，函数体内的this对象，就是定义时所在作用域的对象，而不是使用时所在的作用域的对象。
+function foo() {
+  console.log(this.a)
+}
+var a = 1
+foo()           //1       
+​
+const obj = {
+  a: 2,
+  foo: foo
+}
+obj.foo()      //2
+​
+const c = new foo()   //undefined
+对于直接调用 foo 来说，不管 foo 函数被放在了什么地方，this 一定是window
+对于 obj.foo() 来说，我们只需要记住，谁调用了函数，谁就是 this，所以在这个场景下 foo 函数中的 this 就是 obj 对象
+对于 new 的方式来说，this 被永远绑定在了 new出来的对象上，不会被任何方式改变 this
+说完了以上几种情况，其实很多代码中的 this 应该就没什么问题了，下面让我们看看箭头函数中的 this
 
 %[{ contactme.md }]%
