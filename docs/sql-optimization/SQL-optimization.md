@@ -9,7 +9,7 @@ select name from user where id not in (1,3,4);
 
 ```
 select name from user where id in (2,5,6);
-```
+````
 
 ### 前导模糊查询不能使用索引
 如:

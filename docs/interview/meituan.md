@@ -1,8 +1,11 @@
 ### 美团实习生一面
 
-
 #### Java的基础数据类型
 
+整型：byte, short, int, long
+字符型：char
+浮点型：float, double
+布尔型：boolean
 
 #### StringBuffer和StringBuild的区别
 

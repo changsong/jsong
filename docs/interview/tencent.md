@@ -1,14 +1,14 @@
 #### 腾讯实习生一面
 
 
-##### Java的基础数据类型
+#### Java的基础数据类型
 
 整型：byte, short, int, long
 字符型：char
 浮点型：float, double
 布尔型：boolean
 
-##### StringBuffer和StringBuild的区别
+#### StringBuffer和StringBuild的区别
 
 StringBuilder 类在 Java 5 中被提出，它和 StringBuffer 之间的最大不同在于 StringBuilder 的方法不是线程安全的（不能同步访问）。
 由于 StringBuilder 相较于 StringBuffer 有速度优势。  
@@ -279,7 +279,21 @@ RTREE：  RTREE在MySQL很少使用，仅支持geometry数据类型，。
 
 ##### 手写冒泡排序
 
-[代码参考](https://www.cnblogs.com/wangsen/p/10864136.html)
+[代码参考](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/sort/BubbleSort.java)
+
+
+##### 算法
+
+旋转数组的最小数字。根据统计，在腾讯的算法面试环节出现频率较高，属于简单中等难度。
+
+把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。输入一个递增排序的数组的一个旋转，输出旋转数组的最小元素。例如，数组[3,4,5,1,2] 为 [1,2,3,4,5] 的一个旋转，该数组的最小值为 1。  
+
+这道题最直观的解法是 从头到尾遍历数组一次，轻轻松松就能找出最小的元素。
+
+这种思路的时间复杂度显然是 O(n)。
+
+
+[代码参考](https://github.com/changsong/jsong/blob/master/src/main/java/com/jsong/algorithm/sort/BubbleSort.java)
 
 %[{ contactme.md }]%
 
