@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by user on 2019/1/31.
  */
-class Solution {
+public class Solution {
 
     public static void main(String[] args){
         int[] num1 = new int[]{1,3};

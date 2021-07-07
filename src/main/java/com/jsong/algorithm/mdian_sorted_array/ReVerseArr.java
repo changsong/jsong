@@ -9,7 +9,7 @@ import java.util.List;
  * 例如，数组[3,4,5,1,2] 为 [1,2,3,4,5] 的一个旋转，该数组的最小值为 1。
  * 
  */
-class Solution {
+public class ReVerseArr {
     
     public int minArray(int[] numbers) {
         //设置 start, end 指针分别指向 numbers 数组左右两端
