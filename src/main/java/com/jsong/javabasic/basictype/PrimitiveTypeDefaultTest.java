@@ -1,4 +1,4 @@
-package com.jsong.basictype;
+package com.jsong.javabasic.basictype;
 
 /**
  下表列出了 Java 各个类型的默认值：

@@ -1,4 +1,4 @@
-package com.jsong.classinstance;
+package com.jsong.javabasic.classinstance;
 
 /**
  * 类可以看成是创建 Java 对象的模板。

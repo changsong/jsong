@@ -1,4 +1,4 @@
-package com.jsong.basictype;
+package com.jsong.javabasic.basictype;
 
 /**
  * Java 的两大数据类型:

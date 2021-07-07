@@ -1,4 +1,4 @@
-package com.jsong.classinstance;
+package com.jsong.javabasic.classinstance;
 
 public class Main {
 
