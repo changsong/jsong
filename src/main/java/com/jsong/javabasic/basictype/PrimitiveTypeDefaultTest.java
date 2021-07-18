@@ -1,6 +1,8 @@
 package com.jsong.javabasic.basictype;
 
 /**
+ * Java 基本数据类型
+ *
  下表列出了 Java 各个类型的默认值：
  数据类型	默认值
  byte	0

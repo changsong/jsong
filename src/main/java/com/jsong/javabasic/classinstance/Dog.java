@@ -1,6 +1,8 @@
 package com.jsong.javabasic.classinstance;
 
 /**
+ * Java 对象和类
+ *
  * 类可以看成是创建 Java 对象的模板。
  *
  *构造方法
@@ -8,6 +10,7 @@ package com.jsong.javabasic.classinstance;
  * 在创建一个对象的时候，至少要调用一个构造方法。构造方法的名称必须与类同名，一个类可以有多个构造方法。
  */
 public class Dog {
+
     String breed;
     int size;
     String colour;

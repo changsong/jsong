@@ -1,5 +1,8 @@
 package com.jsong.javabasic.classinstance;
 
+/**
+ * Java 对象和类
+ */
 public class Main {
 
     public static void main(String[] args){
@@ -12,5 +15,4 @@ public class Main {
         /*你也可以像下面这样访问成员变量 */
         System.out.println("变量值 : " + myPuppy.breed );
     }
-
 }
