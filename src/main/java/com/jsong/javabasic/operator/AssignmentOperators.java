@@ -52,5 +52,23 @@ public class AssignmentOperators {
         System.out.println("c ^= a   = " + c );
         c |= a ;
         System.out.println("c |= a   = " + c );
+
+        // 条件运算符
+        int result = 0;
+        if(a > b){
+            if(true){
+
+            }
+            result = a;
+        } else if(true){
+            result = b;
+        } else if(true){
+            result = b;
+        } else{
+
+        }
+        // 又称 三元运算符
+        result = a > b ? a : b;
+        System.out.println("result  " + result);
     }
 }

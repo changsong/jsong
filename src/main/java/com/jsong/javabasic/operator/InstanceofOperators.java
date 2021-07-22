@@ -9,6 +9,8 @@ package com.jsong.javabasic.operator;
 public class InstanceofOperators {
     public static void main(String[] args) {
         String name = "James";
-        boolean result = name instanceof String; // 由于 name 是 String 类型，所以返回真
+        // 由于 name 是 String 类型，所以返回真
+        boolean result = name instanceof String;
+        System.out.println("result = " + result);
     }
 }

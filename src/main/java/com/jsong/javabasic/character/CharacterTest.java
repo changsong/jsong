@@ -13,21 +13,29 @@ public class CharacterTest {
         // 返回拆箱的值到 'c'
         Character chx = new Character('a');
         // 1	isLetter()
+        System.out.println("ch.isLetter() = " + Character.isLetter(ch));
         // 是否是一个字母
         // 2	isDigit()
+        System.out.println("ch.isDigit() = " + Character.isDigit(ch));
         // 是否是一个数字字符
         // 3	isWhitespace()
+        System.out.println("ch.isWhitespace() = " + Character.isWhitespace(ch));
         // 是否是一个空白字符
         // 4	isUpperCase()
+        System.out.println("ch.isUpperCase() = " + Character.isUpperCase(ch));
         // 是否是大写字母
         // 5	isLowerCase()
+        System.out.println("ch.isLetter() = " + Character.isLetter(ch));
         // 是否是小写字母
         // 6	toUpperCase()
+        System.out.println("ch.toUpperCase() = " + Character.toUpperCase(ch));
         // 指定字母的大写形式
         // 7	toLowerCase()
+        System.out.println("ch.toLowerCase() = " + Character.toLowerCase(ch));
         // 指定字母的小写形式
         // 8	toString()
         // 返回字符的字符串形式，字符串的长度仅为1
+        System.out.println("ch.toString() = " + Character.toString(ch));
 
     }
 }
