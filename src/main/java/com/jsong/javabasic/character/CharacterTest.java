@@ -37,5 +37,14 @@ public class CharacterTest {
         // 返回字符的字符串形式，字符串的长度仅为1
         System.out.println("ch.toString() = " + Character.toString(ch));
 
+
+        // Unicode 字符表示形式
+        char uniChar = '\u039A';
+        // 字符数组
+        char[] charArray ={ 'a', 'b', 'c', 'd', 'e' };
+
+        // 转移转义序列
+        System.out.println("访问\"菜鸟教程!\"");
+
     }
 }
