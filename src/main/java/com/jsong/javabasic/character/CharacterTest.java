@@ -43,8 +43,8 @@ public class CharacterTest {
         // 字符数组
         char[] charArray ={ 'a', 'b', 'c', 'd', 'e' };
 
-        // 转移转义序列
-        System.out.println("访问\"菜鸟教程!\"");
+        // 转义序列
+        System.out.println("这是\"转义序列!\"");
 
     }
 }

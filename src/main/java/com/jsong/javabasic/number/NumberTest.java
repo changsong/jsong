@@ -12,5 +12,7 @@ public class NumberTest {
         Integer x = 5;
         x =  x + 10;
         System.out.println(x);
+        System.out.println(x.intValue());
+        System.out.println(x.compareTo(20));
     }
 }

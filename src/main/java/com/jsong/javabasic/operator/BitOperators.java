@@ -1,6 +1,9 @@
 package com.jsong.javabasic.operator;
 
+import com.google.common.collect.Lists;
+
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * 关系运算符
@@ -47,5 +50,22 @@ public class BitOperators {
         // a << 2 = 240
         // a >> 2  = 15
         // a >>> 2 = 15
+        testGoogleBug();
+    }
+
+    // Google bug text
+    public static void testGoogleBug() {
+
+        List<String> key_data_ = Lists.newArrayList();
+        key_data_.add("abc");
+        System.out.println("key_data_.isEmpty() " + key_data_.isEmpty() );
+        System.out.println("!key_data_.get(0).isEmpty() " + !key_data_.get(0).isEmpty());
+
+        if (key_data_.isEmpty() & !key_data_.get(0).isEmpty()) {
+            System.out.println("CleanCodeBadCase.testGoogleBug true" );
+        } else {
+            System.out.println("CleanCodeBadCase.testGoogleBug false" );
+        }
+
     }
 }
