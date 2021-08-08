@@ -1,5 +1,6 @@
 package com.jsong.javabasic.date;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -38,5 +39,44 @@ public class DateTest {
         System.out.printf("HH:MM:SS格式（24时制）：%tT%n",dNow);
         //R的使用
         System.out.printf("HH:MM格式（24时制）：%tR",dNow);
+
+        // 使用toString()显示日期和时间
+        System.out.printf("%1$s %2$tB %2$td, %2$tY",
+                "Due date:", date);
+
+        parseDate();
+
+        testSleep();
+    }
+
+    public static void parseDate() {
+        SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd");
+        System.out.println("\n");
+
+        String input = "1818-11-11";
+        System.out.println(input + " Parses as ");
+        Date t;
+        try {
+            t = ft.parse(input);
+            System.out.println(t);
+        } catch (ParseException e) {
+            System.out.println("Unparseable using " + ft);
+        }
+    }
+
+    /**
+     * sleep()使当前线程进入停滞状态（阻塞当前线程），让出CPU的时间、
+     * 目的是不让当前线程独自霸占该进程所获的CPU资源，以留一定时间给其他线程执行的机会。
+     * 你可以让程序休眠一毫秒的时间或者到您的计算机的寿命长的任意段时间。例如，下面的程序会休眠3秒
+     */
+    public static void testSleep() {
+        try {
+            System.out.println(new Date( ) + "\n");
+            // 休眠3秒
+            Thread.sleep(1000*3);
+            System.out.println(new Date( ) + "\n");
+        } catch (Exception e) {
+            System.out.println("Got an exception!");
+        }
     }
 }
