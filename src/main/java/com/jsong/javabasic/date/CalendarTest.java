@@ -15,7 +15,7 @@ public class CalendarTest {
     public static void main(String[] args) {
         Date date1=new Date(System.currentTimeMillis());
 
-        Calendar calendar=Calendar.getInstance();
+        Calendar calendar = Calendar.getInstance();
         //获得系统时间
 
         //格式化时间格式

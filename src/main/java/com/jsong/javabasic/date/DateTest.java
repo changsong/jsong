@@ -53,7 +53,7 @@ public class DateTest {
         SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd");
         System.out.println("\n");
 
-        String input = "1818-11-11";
+        String input = "2020-11-11";
         System.out.println(input + " Parses as ");
         Date t;
         try {

@@ -61,6 +61,7 @@ public class RegularExpressTest {
 
     // \b 匹配一个字边界，即字与空格间的位置。例如，"er\b"匹配"never"中的"er"，但不匹配"verb"中的"er"。
     // \B 非字边界匹配。"er\B"匹配"verb"中的"er"，但不匹配"never"中的"er"
+    // \d \D
     private static final String REGEX = "\\bcat\\b";
     private static final String INPUT = "cat cat cat cattie cat";
 
