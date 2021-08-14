@@ -1,7 +1,7 @@
 package com.jsong.javabasic.character;
 
 /**
- *
+ * 字符处理
  *
  */
 public class CharacterTest {
