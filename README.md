@@ -16,6 +16,33 @@
 [点击 进入->木子家](https://www.muzjia.com/#/contactme)
 
 #### 相关导航
+
+### Java基础
+- [数组](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/array)
+- [基本类型](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/basictype)
+- [字符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/character)
+- [类实例](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/classinstance)
+- [坏代码](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode)
+- [格式化代码](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode)
+- [代码样式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/codestyle)
+- [条件表达式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/conditionalstatement)
+- [循环](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cyclicstructure)
+- [日期](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/date)
+- [异常](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/exception)
+- [继承](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/extend)
+- [方法](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/method)
+- [修饰符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/modifier)
+- [数值](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/number)
+- [操作符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/operator)
+- [重载](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/override)
+- [正则表达式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/regularexpression)
+- [输入Scanner](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/scanner)
+- [IO流](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/stream)
+- [字符串](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/string)
+- [StringBuffer](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/stringbuffer)
+- [SwitchCase](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/switchcase)
+- [变量](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/variable)
+
 ### 笔试题
 - [Amazon](https://www.muzjia.com/#/interview/amazon)
 
@@ -30,13 +57,6 @@
 - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
 - [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
 - [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
-
-### 系统优化知乎专栏
-- [系统优化怎么做-开篇](https://zhuanlan.zhihu.com/p/39459464)
-- [系统优化怎么做-新系统上线前做什么](https://zhuanlan.zhihu.com/p/39498511)
-- [系统优化怎么做-数据库优化](https://zhuanlan.zhihu.com/p/39658503)
-- [系统优化怎么做-SQL优化](https://zhuanlan.zhihu.com/p/39736653)
-- [系统优化怎么做-Linux系统配置优化](https://zhuanlan.zhihu.com/p/39983734)
 
 ### 常用集合
 - [ArrayList/Vector](https://www.muzjia.com/#/collections/ArrayList)
