@@ -1,21 +1,5 @@
-## 欢迎加入 铁杆粉丝 的知识星球
-- 分享系统架构及优化实战经验及相关咨询
-- 程序员职业规划交流
-- 创业等其他交流
-<div align="center">  
-    <img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/knowlege_logo.jpg" width="300"/> 
-</div>
 
-## 公众号
-<div align="center">  
-    <img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/json_logo.jpg" width="300"/> 
-</div>
-<br/>
-
-## 木子家 - 程序员的大家庭，面试及笔试，编程知识传播及分享
-[点击 进入->木子家](https://www.muzjia.com/#/contactme)
-
-#### 相关导航
+#### 导航
 
 ### Java基础
 - [数组](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/array)
@@ -44,7 +28,7 @@
 - [变量](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/variable)
 
 ### 笔试题
-- [Amazon](https://www.muzjia.com/#/interview/amazon)
+- [Amazon](https://www.muzjia.com/interview/amazon.html)
 
 ### 编码规范
 - [阿里编码规范](https://www.muzjia.com/#/code-guide/ali_code_guide)
@@ -127,9 +111,9 @@
 qianjinfu#gmail.com
 
 ## 欢迎加入 铁杆粉丝 的知识星球
-- 分享系统架构及优化实战经验级相关咨询
+- 分享系统架构及优化实战经验及相关咨询
 - 程序员职业规划交流
-- 创业点子交流
+- 创业等其他交流
 <div align="center">  
     <img src="https://jsong-data.oss-cn-hangzhou.aliyuncs.com/image/knowlege_logo.jpg" width="300"/> 
 </div>
@@ -140,3 +124,5 @@ qianjinfu#gmail.com
 </div>
 <br/>
 
+## 木子家 - 程序员的大家庭，面试及笔试，编程知识传播及分享
+[点击 进入->木子家](https://www.muzjia.com/#/contactme)
