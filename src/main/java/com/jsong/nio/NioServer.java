@@ -20,7 +20,9 @@ import java.util.Set;
 public class NioServer {
 
     /**
-     * Java中使用Selector对象完成select/epoll函数的功能，Selector可以监控多个Channel，当某一个Channel有数据可以读取时，Selector会把它选取出来，然后交给线程处理。
+     * Java中使用Selector对象完成select/epoll函数的功能，
+     * Selector可以监控多个Channel，当某一个Channel有数据可以读取时，
+     * Selector会把它选取出来，然后交给线程处理。
      *
      * @param args
      * @throws Exception
