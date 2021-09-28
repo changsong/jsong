@@ -2,7 +2,7 @@
 #### 导航
 
 ### Java基础
-- [数组](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/array){:target="_blank"}
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/array" target="_blank">数组</a>
 - [基本类型](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/basictype){:target="_blank"}
 - [字符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/character){:target="_blank"}
 - [类实例](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/classinstance){target="_blank"}
