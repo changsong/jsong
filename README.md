@@ -2,14 +2,14 @@
 #### 导航
 
 ### Java基础
-- [数组](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/array)
-- [基本类型](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/basictype)
-- [字符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/character)
-- [类实例](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/classinstance)
-- [坏代码](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode)
-- [格式化代码](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode)
+- [数组](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/array){:target="_blank"}
+- [基本类型](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/basictype){:target="_blank"}
+- [字符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/character){:target="_blank"}
+- [类实例](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/classinstance){target="_blank"}
+- [坏代码](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode){target="_blank"}
+- [格式化代码](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode){target="_blank"}
 - [代码样式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/codestyle)
-- [条件表达式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/conditionalstatement)
+- [条件表达式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/conditionalstatement){target="_blank"}
 - [循环](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cyclicstructure)
 - [日期](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/date)
 - [异常](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/exception)
