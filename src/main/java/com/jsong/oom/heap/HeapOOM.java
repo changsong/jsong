@@ -17,5 +17,6 @@ public class HeapOOM {
         while (true){
             list.add("1") ;
         }
+
     }
 }
