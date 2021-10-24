@@ -1,4 +1,7 @@
-package com.jsong.javabasic.polymorphism;
+package com.jsong.javabasic.polymorphism.employee;
+
+import com.jsong.javabasic.polymorphism.employee.Employee;
+import com.jsong.javabasic.polymorphism.employee.Salary;
 
 /**
  * 测试

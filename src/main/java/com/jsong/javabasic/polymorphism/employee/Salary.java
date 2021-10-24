@@ -1,4 +1,4 @@
-package com.jsong.javabasic.polymorphism;
+package com.jsong.javabasic.polymorphism.employee;
 
 /**
  * @author changsong

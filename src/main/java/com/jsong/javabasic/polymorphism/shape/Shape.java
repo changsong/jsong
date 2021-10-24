@@ -1,4 +1,4 @@
-package com.jsong.javabasic.polymorphism;
+package com.jsong.javabasic.polymorphism.shape;
 
 /**
  * 多态-形状

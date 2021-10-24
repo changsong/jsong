@@ -1,4 +1,6 @@
-package com.jsong.javabasic.polymorphism;
+package com.jsong.javabasic.polymorphism.shape;
+
+import com.jsong.javabasic.polymorphism.shape.Shape;
 
 /**
  * 圆形
