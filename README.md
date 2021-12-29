@@ -38,73 +38,73 @@
 - <a href="https://www.muzjia.com/tech/code-guide/OOM-analysis.html" target="_blank">Google编码规范(中文版) C++,Python.Shell, Objective-C</a>
 
 #### 代码自动检测插件
-- [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-- [eclipse](https://github.com/alibaba/p3c/tree/master/eclipse-plugin)
-- [pmd](https://github.com/alibaba/p3c/tree/master/p3c-pmd)
+- <a href="https://github.com/alibaba/p3c/tree/master/idea-plugin" target="_blank">idea</a>
+- <a href="https://github.com/alibaba/p3c/tree/master/eclipse-plugin" target="_blank">eclipse</a>
+- <a href="https://github.com/alibaba/p3c/tree/master/p3c-pmd" target="_blank">pmd</a>
 
 ### 常用集合
-- [ArrayList/Vector](https://www.muzjia.com/#/collections/ArrayList.html)
-- [LinkedList](https://www.muzjia.com/#/collections/LinkedList.html)
-- [HashMap](https://www.muzjia.com/#/collections/HashMap.html)
-- [HashSet](https://www.muzjia.com/#/collections/HashSet.html)
-- [LinkedHashMap](https://www.muzjia.com/#/collections/LinkedHashMap.html)
+- <a href="https://www.muzjia.com/#/collections/ArrayList.html" target="_blank">ArrayList/Vector</a>
+- <a href="https://www.muzjia.com/#/collections/LinkedList.html" target="_blank">LinkedList</a>
+- <a href="https://www.muzjia.com/#/collections/HashMap.html" target="_blank">HashMap</a>
+- <a href="https://www.muzjia.com/#/collections/HashSet.html" target="_blank">HashSet</a>
+- <a href="https://www.muzjia.com/#/collections/LinkedHashMap.html" target="_blank">LinkedHashMap</a>
 
 ### Java 多线程
-- [多线程中的常见问题](https://www.muzjia.com/tech/thread/Thread-common-problem.html)
-- [synchronized 关键字原理](https://www.muzjia.com/tech/thread/Synchronize.html)
-- [多线程的三大核心](https://www.muzjia.com/tech/thread/Threadcore.html)
-- [对锁的一些认知](https://www.muzjia.com/tech/thread/Java-lock.html)
-- [ReentrantLock 实现原理 ](https://www.muzjia.com/tech/thread/ReentrantLock.html)
-- [ConcurrentHashMap 的实现原理](https://www.muzjia.com/tech/thread/ConcurrentHashMap.html)
-- [如何优雅的使用和理解线程池](https://www.muzjia.com/tech/thread/ThreadPoolExecutor.html)
-- [深入理解线程通信](https://www.muzjia.com/tech/thread/thread-communication.html)
-- [一个线程罢工的诡异事件](https://www.muzjia.com/tech/thread/thread-gone.html)
-- [线程池中你不容错过的一些细节](https://www.muzjia.com/tech/thread/thread-gone2.html)
-- [『并发包入坑指北』之阻塞队列](https://www.muzjia.com/tech/thread/ArrayBlockingQueue.html)
+- <a href="https://www.muzjia.com/tech/thread/Thread-common-problem.html" target="_blank">多线程中的常见问题</a>
+- <a href="https://www.muzjia.com/tech/thread/Synchronize.html" target="_blank">synchronized 关键字原理</a>
+- <a href="https://www.muzjia.com/tech/thread/Threadcore.html" target="_blank">多线程的三大核心</a>
+- <a href="https://www.muzjia.com/tech/thread/Java-lock.html" target="_blank">对锁的一些认知</a>
+- <a href="https://www.muzjia.com/tech/thread/ReentrantLock.html" target="_blank">ReentrantLock 实现原理</a>
+- <a href="https://www.muzjia.com/tech/thread/ConcurrentHashMap.html" target="_blank">ConcurrentHashMap 的实现原理</a>
+- <a href="https://www.muzjia.com/tech/thread/ThreadPoolExecutor.html" target="_blank">如何优雅的使用和理解线程池</a>
+- <a href="https://www.muzjia.com/tech/thread/thread-communication.html" target="_blank">深入理解线程通信</a>
+- <a href="https://www.muzjia.com/tech/thread/thread-gone.html" target="_blank">一个线程罢工的诡异事件</a>
+- <a href="https://www.muzjia.com/tech/thread/thread-gone2.html" target="_blank">线程池中你不容错过的一些细节</a>
+- <a href="https://www.muzjia.com/tech/thread/ArrayBlockingQueue.html" target="_blank">『并发包入坑指北』之阻塞队列</a>
 
 ### JVM
-- [Java 运行时内存划分](https://www.muzjia.com/tech/jvm/MemoryAllocation.html)
-- [类加载机制](https://www.muzjia.com/tech/jvm/ClassLoad.html)
-- [OOM 分析](https://www.muzjia.com/tech/jvm/OOM-analysis.html)
-- [垃圾回收](https://www.muzjia.com/tech/jvm/GarbageCollection.html)
-- [对象的创建与内存分配](https://www.muzjia.com/tech/jvm/newObject)
-- [你应该知道的 volatile 关键字](https://www.muzjia.com/tech/jvm/volatile.html)
-- [一次内存溢出排查优化实战](https://www.muzjia.com/tech/jvm/OOM-Disruptor/)
-- [一次 HashSet 所引起的并发问题](https://www.muzjia.com/tech/jvm/JVM-concurrent-HashSet-problem.html)
-- [一次生产 CPU 100% 排查优化实践](https://www.muzjia.com/tech/jvm/cpu-percent-100.html)
+- <a href="https://www.muzjia.com/tech/jvm/MemoryAllocation.html" target="_blank">Java 运行时内存划分</a>
+- <a href="https://www.muzjia.com/tech/jvm/ClassLoad.html" target="_blank">类加载机制</a>
+- <a href="https://www.muzjia.com/tech/jvm/OOM-analysis.html" target="_blank">OOM 分析</a>
+- <a href="https://www.muzjia.com/tech/jvm/GarbageCollection.html" target="_blank">垃圾回收</a>
+- <a href="https://www.muzjia.com/tech/jvm/newObject" target="_blank">对象的创建与内存分配</a>
+- <a href="https://www.muzjia.com/tech/jvm/volatile.html" target="_blank">你应该知道的 volatile 关键字</a>
+- <a href="https://www.muzjia.com/tech/jvm/OOM-Disruptor/" target="_blank">一次内存溢出排查优化实战</a>
+- <a href="https://www.muzjia.com/tech/jvm/JVM-concurrent-HashSet-problem.html" target="_blank">一次 HashSet 所引起的并发问题</a>
+- <a href="https://www.muzjia.com/tech/jvm/cpu-percent-100.html" target="_blank">一次生产 CPU 100% 排查优化实践</a>
 
 ### 分布式相关
-- [分布式限流](https://www.muzjia.com/tech/distributed/Distributed-Limit.html.html)
-- [基于 Redis 的分布式锁](https://www.muzjia.com/tech/distributed/distributed-lock-redis/.html)
-- [分布式缓存设计](https://www.muzjia.com/tech/cache/Cache-design.html)
-- [分布式 ID 生成器](https://www.muzjia.com/tech/cache/ID-generator.html)
+- <a href="https://www.muzjia.com/tech/distributed/Distributed-Limit.html.html" target="_blank">分布式限流</a>
+- <a href="https://www.muzjia.com/tech/distributed/distributed-lock-redis.html" target="_blank">基于 Redis 的分布式锁</a>
+- <a href="https://www.muzjia.com/tech/cache/Cache-design.html" target="_blank">分布式缓存设计</a>
+- <a href="https://www.muzjia.com/tech/cache/ID-generator.html" target="_blank">分布式 ID 生成器</a>
 
 ### 常用框架\第三方组件
-- [Spring Bean 生命周期](https://github.com/changsong/jsong/blob/master/md/spring/spring-bean-lifecycle)
-- [Spring AOP 的实现原理](https://github.com/changsong/jsong/blob/master/md/SpringAOP) 
-- [Guava 源码分析（Cache 原理）](https://jsong.top/2018/06/13/guava/guava-cache/)
-- [轻量级 HTTP 框架](https://github.com/jsong/cicada)
-- [Kafka produce 源码分析](https://www.muzjia.com/#/kafka/kafka-product)
-- [Kafka 消费实践](https://www.muzjia.com/#/frame/kafka-consumer)
+- <a href="https://github.com/changsong/jsong/blob/master/md/spring/spring-bean-lifecycle" target="_blank">Spring Bean 生命周期</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/SpringAOP" target="_blank">Spring AOP 的实现原理</a>
+- <a href="https://jsong.top/2018/06/13/guava/guava-cache/" target="_blank">Guava 源码分析（Cache 原理）</a>
+- <a href="https://github.com/jsong/cicada" target="_blank">轻量级 HTTP 框架</a>
+- <a href="https://www.muzjia.com/#/kafka/kafka-product" target="_blank">Kafka produce 源码分析</a>
+- <a href="https://www.muzjia.com/#/frame/kafka-consumer" target="_blank">Kafka 消费实践</a>
 
 ### 架构设计
-- [秒杀系统设计](https://github.com/changsong/jsong/blob/master/md/Spike)
-- [秒杀架构实践](http://jsong.top/2018/05/07/ssm/SSM18-seconds-kill/)
-- [设计一个百万级的消息推送系统](https://github.com/changsong/jsong/blob/master/md/architecture-design/million-sms-push)
+- <a href="https://github.com/changsong/jsong/blob/master/md/Spike" target="_blank">秒杀系统设计</a>
+- <a href="http://jsong.top/2018/05/07/ssm/SSM18-seconds-kill/" target="_blank">秒杀架构实践</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/architecture-design/million-sms-push" target="_blank">设计一个百万级的消息推送系统</a>
 
 ### DB 相关
-- [MySQL 索引原理](https://github.com/changsong/jsong/blob/master/md/MySQL-Index)
-- [SQL 优化](https://github.com/changsong/jsong/blob/master/md/SQL-optimization)
-- [数据库水平垂直拆分](https://github.com/changsong/jsong/blob/master/md/DB-split)
-- [一次分表踩坑实践的探讨](docs/db/sharding-db)
+- <a href="https://github.com/changsong/jsong/blob/master/md/MySQL-Index" target="_blank">MySQL 索引原理</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/SQL-optimizatio" target="_blank">SQL 优化</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/DB-split" target="_blank">数据库水平垂直拆分</a>
+- <a href="docs/db/sharding-db" target="_blank">一次分表踩坑实践的探讨</a>
 
 ### Netty 相关
-- [SpringBoot 整合长连接心跳机制](https://jsong.top/2018/05/24/netty/Netty(1)TCP-Heartbeat/)
-- [为自己搭建一个分布式 IM(即时通讯) 系统](https://github.com/jsong/cim)
+- <a href="https://jsong.top/2018/05/24/netty/Netty(1)TCP-Heartbeat/" target="_blank">SpringBoot 整合长连接心跳机制</a>
+- <a href="https://github.com/jsong/cim" target="_blank">为自己搭建一个分布式 IM(即时通讯) 系统</a>
 
 ### 附加技能
-- [TCP/IP 协议](https://github.com/changsong/jsong/blob/master/md/TCP-IP)
-- [如何高效的使用 Git](https://github.com/changsong/jsong/blob/master/md/additional-skills/how-to-use-git-efficiently)
+- <a href="https://github.com/changsong/jsong/blob/master/md/TCP-I" target="_blank">TCP/IP 协议</a>
+- <a href="https://github.com/changsong/jsong/blob/master/md/additional-skills/how-to-use-git-efficiently" target="_blank">如何高效的使用 Git</a>
 
 
 ### 联系作者
