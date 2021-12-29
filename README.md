@@ -28,14 +28,14 @@
 - <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/variable" target="_blank">变量</a>
 
 ### 笔试题
-- [Amazon](https://www.muzjia.com/interview/amazon.html)
+- <a href="https://www.muzjia.com/interview/amazon.html" target="_blank">Amazon</a>
 
 ### 编码规范
-- [阿里编码规范](https://www.muzjia.com/tech/code-guide/ali_code_guide.html)
-- [HTML规范](https://www.muzjia.com/tech/code-guide/html_guide.html)
-- [JavaScript规范](https://www.muzjia.com/tech/code-guide/javascript_guide.html)
-- [Python规范](https://www.muzjia.com/tech/code-guide/python_guide.html)
-- [Google编码规范(中文版) C++,Python.Shell, Objective-C](https://www.muzjia.com/tech/code-guide/OOM-analysis.html)
+- <a href="https://www.muzjia.com/tech/code-guide/ali_code_guide.html" target="_blank">阿里编码规范</a>
+- <a href="https://www.muzjia.com/tech/code-guide/html_guide.html" target="_blank">HTML规范</a>
+- <a href="https://www.muzjia.com/tech/code-guide/javascript_guide.html" target="_blank">JavaScript规范</a>
+- <a href="https://www.muzjia.com/tech/code-guide/python_guide.html" target="_blank">Python规范</a>
+- <a href="https://www.muzjia.com/tech/code-guide/OOM-analysis.html" target="_blank">Google编码规范(中文版) C++,Python.Shell, Objective-C</a>
 
 #### 代码自动检测插件
 - [idea](https://github.com/alibaba/p3c/tree/master/idea-plugin)
