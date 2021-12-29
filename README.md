@@ -9,22 +9,23 @@
 - <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cleancode" target="_blank">坏代码</a>
 - <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/codestyle" target="_blank">格式化代码</a>
 - <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/conditionalstatement" target="_blank">条件表达式</a>
-- [循环](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cyclicstructure)
-- [日期](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/date)
-- [异常](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/exception)
-- [继承](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/extend)
-- [方法](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/method)
-- [修饰符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/modifier)
-- [数值](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/number)
-- [操作符](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/operator)
-- [重载](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/override)
-- [正则表达式](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/regularexpression)
-- [输入Scanner](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/scanner)
-- [IO流](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/stream)
-- [字符串](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/string)
-- [StringBuffer](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/stringbuffer)
-- [SwitchCase](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/switchcase)
-- [变量](https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/variable)
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cyclicstructure" target="_blank">循环</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/date" target="_blank">日期</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/exception" target="_blank">异常</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/extend" target="_blank">继承</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/method" target="_blank">方法</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/modifier" target="_blank">修饰符</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/cyclicstructure" target="_blank">修饰符</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/number" target="_blank">数值</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/operator" target="_blank">操作符</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/override" target="_blank">重载</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/regularexpression" target="_blank">正则表达式</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/scanner" target="_blank">输入Scanner</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/stream" target="_blank">IO流</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/string" target="_blank">字符串</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/stringbuffer" target="_blank">StringBuffer</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/switchcase" target="_blank">SwitchCase</a>
+- <a href="https://gitee.com/changsong/jsong/tree/master/src/main/java/com/jsong/javabasic/variable" target="_blank">变量</a>
 
 ### 笔试题
 - [Amazon](https://www.muzjia.com/interview/amazon.html)
