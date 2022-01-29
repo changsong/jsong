@@ -148,7 +148,11 @@
             <version>1.9.3</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.dtflys.forest</groupId>
+            <artifactId>forest-spring-boot-starter</artifactId>
+            <version>1.5.16</version>
+        </dependency>
 
 
     </dependencies>
