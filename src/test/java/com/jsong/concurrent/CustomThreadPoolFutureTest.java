@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CustomThreadPoolFutureTest {
     private final static Logger LOGGER = LoggerFactory.getLogger(CustomThreadPoolFutureTest.class);
+
     @Test
     public void execute() {
     }
@@ -42,8 +43,6 @@ public class CustomThreadPoolFutureTest {
             Integer integer = future.get();
             LOGGER.info("future======{}" ,integer);
         }
-
-
 
 
     }
