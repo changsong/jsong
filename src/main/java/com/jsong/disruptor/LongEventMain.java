@@ -13,7 +13,8 @@ import java.util.concurrent.*;
  *  在多线程环境下为了保证线程安全，往往需要加锁，例如读写锁可以保证读写互斥，读读不互斥。
  *  有没有一种数据结构能够实现无锁的线程安全呢？答案就是使用RingBuffer循环队列。在Disruptor项目中就运用到了RingBuffer
  *
- * @see 剖析Disruptor:为什么会这么快? http://ifeve.com/dissecting-disruptor-whats-so-special/
+ *  剖析Disruptor为什么会这么快? http://ifeve.com/dissecting-disruptor-whats-so-special/
+ *
  * @author jsong
  *         Date: 2018/8/29 01:45
  * @since JDK 1.8
@@ -29,7 +30,6 @@ public class LongEventMain {
                 .setNameFormat("consumer-%d")
                 .setDaemon(true)
                 .build();
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(15, 15, 1, TimeUnit.MILLISECONDS, queue,namedThreadFactory);
 
         ThreadFactory product = new ThreadFactoryBuilder()
                 .setNameFormat("product-%d")
@@ -43,11 +43,8 @@ public class LongEventMain {
         // Specify the size of the ring buffer, must be power of 2.
         int bufferSize = 8;
 
-
         // Construct the Disruptor
-        //Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, executor);
-        Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, executor, ProducerType.SINGLE,
-                new YieldingWaitStrategy());
+        Disruptor<LongEvent> disruptor = new Disruptor<>(factory, bufferSize, namedThreadFactory, ProducerType.SINGLE, new YieldingWaitStrategy());
 
         // Connect the handler
         disruptor.handleEventsWith(new LongEventHandler());
