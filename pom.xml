@@ -148,12 +148,37 @@
             <version>1.9.3</version>
         </dependency>
 
+        <!-- http矿建 -->
         <dependency>
             <groupId>com.dtflys.forest</groupId>
             <artifactId>forest-spring-boot-starter</artifactId>
             <version>1.5.16</version>
         </dependency>
 
+        <!-- 高性能交易底层框架-->
+<!--        <dependency>-->
+<!--            <groupId>net.openhft</groupId>-->
+<!--            <artifactId>chronicle-queue</artifactId>-->
+<!--            <version>5.22.18</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>net.openhft</groupId>-->
+<!--            <artifactId>chronicle-map</artifactId>-->
+<!--            <version>3.22.7</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>net.openhft</groupId>-->
+<!--            <artifactId>chronicle-wire</artifactId>-->
+<!--            <version>2.22.17</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>net.openhft</groupId>-->
+<!--            <artifactId>chronicle-bytes</artifactId>-->
+<!--            <version>2.22.19</version>-->
+<!--        </dependency>-->
 
     </dependencies>
 
