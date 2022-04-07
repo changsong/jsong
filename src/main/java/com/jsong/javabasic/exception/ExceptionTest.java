@@ -1,9 +1,12 @@
 package com.jsong.javabasic.exception;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+@Slf4j
 public class ExceptionTest {
 
     /**
@@ -11,40 +14,39 @@ public class ExceptionTest {
      *
      * @param args
      */
-    // public static void main(String[] args) {
-    //     try {
-    //         int a[] = new int[2];
-    //         System.out.println("Access element three :" + a[3]);
-    //     } catch (ArrayIndexOutOfBoundsException e) {
-    //         System.out.println("Exception thrown  :" + e);
-    //         e.printStackTrace();
-    //     }
-    //     System.out.println("Out of the block");
-    // }
+    public static void test(String[] args) {
+        try {
+            int a[] = new int[2];
+            log.info("Access element three :" + a[3]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            log.error("Exception thrown  :", e);
+        }
+        log.info("Out of the block");
+    }
 
 
-    // /**
-    //  * 多重捕获块
-    //  * <p>
-    //  * 可以在 try 语句后面添加任意数量的 catch 块。
-    //  * 如果保护代码中发生异常，异常被抛给第一个 catch 块。
-    //  * 如果抛出异常的数据类型与 ExceptionType1 匹配，它在这里就会被捕获。
-    //  * 如果不匹配，它会被传递给第二个 catch 块。
-    //  * 如此，直到异常被捕获或者通过所有的 catch 块。
-    //  *
-    //  * @param args
-    //  */
-    // public static void main(String[] args) {
-    //     try {
-    //         String fileName = "test.txt";
-    //         FileInputStream file = new FileInputStream(fileName);
-    //         int x = (byte) file.read();
-    //     } catch (FileNotFoundException f) { // Not valid!
-    //         f.printStackTrace();
-    //     } catch (IOException i) {
-    //         i.printStackTrace();
-    //     }
-    // }
+    /**
+     * 多重捕获块
+     * <p>
+     * 可以在 try 语句后面添加任意数量的 catch 块。
+     * 如果保护代码中发生异常，异常被抛给第一个 catch 块。
+     * 如果抛出异常的数据类型与 ExceptionType1 匹配，它在这里就会被捕获。
+     * 如果不匹配，它会被传递给第二个 catch 块。
+     * 如此，直到异常被捕获或者通过所有的 catch 块。
+     *
+     * @param args
+     */
+    public static void test2(String[] args) {
+        try {
+            String fileName = "test.txt";
+            FileInputStream file = new FileInputStream(fileName);
+            int x = (byte) file.read();
+        } catch (FileNotFoundException f) {
+            log.error("Exception thrown  :", f);
+        } catch (IOException i) {
+            log.error("Exception thrown  :", i);
+        }
+    }
 
     /**
      * finally关键字
@@ -61,11 +63,11 @@ public class ExceptionTest {
         try {
             System.out.println("Access element three :" + a[3]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Exception thrown  :" + e);
+           log.error("Exception thrown  :" , e);
         } finally {
             a[0] = 6;
-            System.out.println("First element value: " + a[0]);
-            System.out.println("The finally statement is executed");
+            log.info("First element value: {}" , a[0]);
+            log.info("The finally statement is executed");
         }
     }
 

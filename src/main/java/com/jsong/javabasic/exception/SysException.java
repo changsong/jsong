@@ -5,13 +5,19 @@ package com.jsong.javabasic.exception;
  *
  * @author changsong
  */
-public class InsufficientFundsException extends Exception
+public class SysException extends Exception
 {
     // 此处的amount用来储存当出现异常（取出钱多于余额时）所缺乏的钱
     private double amount;
-    public InsufficientFundsException(double amount)
+    // 此处的amount用来储存当出现异常（取出钱多于余额时）所缺乏的钱
+    private String message;
+    public SysException(double amount)
     {
         this.amount = amount;
+    }
+    public SysException(String message)
+    {
+        this.message = message;
     }
     public double getAmount()
     {
