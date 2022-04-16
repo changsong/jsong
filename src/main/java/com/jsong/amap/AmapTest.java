@@ -12,11 +12,11 @@ public class AmapTest {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(AmapTest.class);
 
-    /**
-     *  注入接口实例
-     */
-    @Autowired
-    private AmapClient amapClient;
+    // /**
+    //  *  注入接口实例
+    //  */
+    // @Autowired
+    // private AmapClient amapClient;
 
     /**
      * 取得地址
@@ -26,9 +26,9 @@ public class AmapTest {
      * @return
      */
     Map getLocation(String longitude, String latitude){
-        // 调用接口
-        Map result = amapClient.getLocation("121.475078", "31.223577");
-
+        // // 调用接口
+        // Map result = amapClient.getLocation("121.475078", "31.223577");
+        Map result = null;
         LOGGER.info(JSON.toJSONString(result));
         return result;
     }

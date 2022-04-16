@@ -35,21 +35,12 @@ public class CopilotTest {
     * @return
     */
    public static String getUserInfo(String accessToken) {
-       String url = "https://api.amemv.com/aweme/v1/user/info/";
-       String params = "access_token=" + accessToken + "&ts=1555590512&app_type=normal";
-       String result = HttpUtil.sendGet(url, params);
-       return result;
+       // String url = "https://api.amemv.com/aweme/v1/user/info/";
+       // String params = "access_token=" + accessToken + "&ts=1555590512&app_type=normal";
+       // String result = HttpUtil.sendGet(url, params);
+       // return result;
+       return "";
    }
-
-
-
-
-
-
-
-
-
-
 
    // // 计算两个数的和
    // public static int add(int a, int b) {
@@ -94,33 +85,6 @@ public class CopilotTest {
    //  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    /**
     * 请求百度的接口，返回数据   参数：url，参数：params，参数：method，参数：headers，参数：cookies   返回值：String   方法：get   描述：    请求百度的接口，返回数据
     *
@@ -144,14 +108,14 @@ public class CopilotTest {
     * 迭代列表取出为空的元素
     */
    public static void list() {
-      List<String> list = new ArrayList<String>();
-      list.add("a");
-      list.add("b")
-      for (String str : list) {
-         if (str == null) {
-            list.remove(str);
-         }
-      }
+      // List<String> list = new ArrayList<String>();
+      // list.add("a");
+      // list.add("b")
+      // for (String str : list) {
+      //    if (str == null) {
+      //       list.remove(str);
+      //    }
+      // }
    }
 
    /**
