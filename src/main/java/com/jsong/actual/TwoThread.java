@@ -64,7 +64,7 @@ public class TwoThread {
                         number.flag = false;
 
 
-                    } finally {
+                    }  finally {
                         LOCK.unlock();
                     }
                 }
