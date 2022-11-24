@@ -45,10 +45,6 @@ import java.util.Stack;
  * The total number of clusters of open areas = 3.
  *
  *
- *
- *
- *
- *
  * */
  public class TreasureTruck {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED

@@ -1,5 +1,12 @@
 package com.jsong.copilot;
 
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *
+ * @author changsong
+ */
 public class CopilotTest {
 
    public static void main(String[] args) {
@@ -28,6 +35,8 @@ public class CopilotTest {
       quickSort(arr, start, i - 1);
       quickSort(arr, i + 1, end);
   }
+
+  // 获取抖音视频开放平台的access_token
 
    /**
     * 获取抖音开放平台用户信息
@@ -121,10 +130,81 @@ public class CopilotTest {
    /**
     * 快速排序
     */
-   public static void quickSort(int[] arr) {
-      if (arr == null || arr.length == 0) {
-         return;
-      }
-      quickSort(arr, 0, arr.length - 1);
-   }
+   // public static void quickSort(int[] arr) {
+   //    if (arr == null || arr.length == 0) {
+   //       return;
+   //    }
+   //    quickSort(arr, 0, arr.length - 1);
+   // }
+   //
+   //  // Path: attendance-common-api\src\main\java\com\dm\attendance\common\api\response\ResultEntity.java
+   //  // quick sort
+   //  public static void quickSort(int[] arr, int low, int high) {
+   //      if (low < high) {
+   //          int middle = getMiddle(arr, low, high);
+   //          quickSort(arr, low, middle - 1);
+   //          quickSort(arr, middle + 1, high);
+   //      }
+   //  }
+
+    // search in array
+    public static int search(int[] arr, int key) {
+        int low = 0;
+        int high = arr.length - 1;
+        while (low <= high) {
+            int middle = (low + high) / 2;
+            if (arr[middle] > key) {
+                high = middle - 1;
+            } else if (arr[middle] < key) {
+                low = middle + 1;
+            } else {
+                return middle;
+            }
+        }
+        return -1;
+    }
+
+    // return the max value in array
+    public static int getMax(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+
+    // return the min value in array
+    public static int getMin(int[] arr) {
+        int min = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        return min;
+    }
+
+    // compare two list and remove the same element
+    public static List<String> compareList(List<String> list1, List<String> list2) {
+        List<String> list = new ArrayList<>();
+        for (String str : list1) {
+            if (!list2.contains(str)) {
+                list.add(str);
+            }
+        }
+        return list;
+    }
+
+    // 比较两个list，返回相同的元素
+    public static List<String> compareList2(List<String> list1, List<String> list2) {
+        List<String> list = new ArrayList<>();
+        for (String str : list1) {
+            if (list2.contains(str)) {
+                list.add(str);
+            }
+        }
+        return list;
+    }
 }
