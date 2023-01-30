@@ -25,14 +25,15 @@ nohup /usr/local/kafka/bin/kafka-server-start.sh /usr/local/kafka/config/server.
 ## 删除tmp目录下创建时间超过20天的文件
 find tmp -type f -mtime +20 -exec rm -rf {} \;
 
-## 添加新的hosts解析
-
 
 ## 切割文件
 split -b 100M -d -a 3 data/2018-01-01.log data/2018-01-01.log.
 
 ## 合并文件
 cat data/2018-01-01.log.* > data/2018-01-01.log
+
+
+
 
 
 
